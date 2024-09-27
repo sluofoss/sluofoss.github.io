@@ -1,6 +1,6 @@
 ---
 slug: /
-date: 2021-12-25
+date: 2024-09-28
 title: Sean Luo
 ---
 
@@ -17,26 +17,25 @@ Computer Science Exchange to HKUST: Fall 2019
 <h2  id = "Skills"> Skills </h2>
 
 #### Programming Language: 
+<img src = 'https://cdn.cookielaw.org/logos/4a2cde9e-5f84-44b2-bdbb-6a93354d1c72/e1199e19-1935-49fa-a4e2-bf7f9d08cee6/783d7c83-af8c-4032-901b-b3ec48982078/dbt-logo.png' alt = 'dbt' height = '100'>
 
-![python](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/python_icon.png)
-![java](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/java_icon.png)
-![js](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/js_icon.png)
-![sql](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/sql_icon.png)
-![matlab](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/matlab_icon.png)
-![r](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/r_icon.png)
+<img src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROFKxN5ouHmQvjvoI4JR5TBbTuiG_AUd9Fhw&s' alt = 'teradata' height = '100'>
 
+<img src = 'https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/java_icon.png' alt = 'java' height = '100'>
+
+<img src = 'https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/python_icon.png' alt = 'python' height = '100'>
+
+<img src = 'https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/sql_icon.png' alt = 'sql' height = '100'>
+
+<img src = 'https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/matlab_icon.png' alt = 'matlab' height = '100'>
+
+<img src = 'https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/r_icon.png' alt = 'R' height = '100'>
 
 #### Libraries/Framework: 
 
 ![pyqt](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/pyqt_icon.png)
 ![PyTorch](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/pytorch_icon.png)
-![Selenium](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/selenium_icon.png)
 ![PySpark](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/pyspark_icon.png)
-![Hadoop](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/hadoop_icon.png)
-![React](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/react_icon.png)
-![React Native](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/react_native_icon.png)
-![Socket.io](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/socketio_icon.png)
-![P5.js](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/p5js_icon.png)
 ![Plotly](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/plotly_icon.png)
 
 
@@ -46,32 +45,20 @@ Computer Science Exchange to HKUST: Fall 2019
 ![AWS](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/aws_icon.png)
 ![GCP](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/gcp_icon.png)
 
-
-#### Software: 
-
-![vsc](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/vsc_icon.png)
-![mso](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/msoffice_icon.png)
-![maya](https://raw.githubusercontent.com/lu0x1a0/lu0x1a0.github.io/master/src/images/sml_icon/maya_icon.png)
-
 #### Knowledge:
 
 * Statistical Modelling, Machine Learning, Data Cleaning and Analysis.
-* Bilingual in Chinese(Mandarin) and English
 
 <h2 id = "Projects"> Projects </h2>
-
 ### Past Projects
 * UMAP as part of generalized evaluation metric for GAN (Honour Thesis)
 * [EURUSD Price Analysis](https://lu0x1a0.github.io/EURUSDPriceAnalysis)
-    
-    Goals:
-
     * Using Selenium to scrape Historical Forex data online.
     * Construct Neural Network Models to predictive time series of indicators, future price change and its distribution.
     * Visualize indicators through various chart like histogram, time series.
     * Realtime demo of prediction.
     * Set up a GYM environment for reinforcement Training.
-* [Final Project: Online Multiplayer Node Js Game](https://github.com/lu0x1a0/CS_Final_Project/tree/main) 
+* [Capstone Project: Online Multiplayer Node Js Game](https://github.com/lu0x1a0/CS_Final_Project/tree/main) 
     Detail:
     * Deployed Project on Heroku and GCP.
     * Designed backend Socket.io API for client-server communication.
@@ -84,4 +71,4 @@ Computer Science Exchange to HKUST: Fall 2019
 * [Coursework: JavaFX 2D Dungeon Game](https://github.com/lu0x1a0/_redacted_dungeon_game)
 
 <h2 id = "Contact"> Contact </h2>
-Email: seanluo1999 (at) gmail.com
+Email: sluofoss (at) gmail.com
