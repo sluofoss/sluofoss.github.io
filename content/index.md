@@ -49,7 +49,8 @@ Computer Science Exchange to HKUST: Fall 2019
 
 * Statistical Modelling, Machine Learning, Data Cleaning and Analysis.
 
-<h2 id = "Projects"> Projects </h2>
+## Projects
+
 ### Past Projects
 * UMAP as part of generalized evaluation metric for GAN (Honour Thesis)
 * [EURUSD Price Analysis](https://lu0x1a0.github.io/EURUSDPriceAnalysis)
