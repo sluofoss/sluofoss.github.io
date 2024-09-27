@@ -1,0 +1,26 @@
+1. single node
+	1. polars
+	2. duckdb
+	3. pandas
+get dummies / select case when
+	polars  (5x)< pandas (5x)< duckdb 
+
+dates
+	polars (10x) < pandas < ?(syntax too complicated and not automated)
+
+adjoin with sklearn: 
+	one hot encoding: 
+		pd sparse < pl sparse < pd < pl
+
+feature engine only supports pandas , not polars
+
+
+
+
+1. distributed
+	1. ray
+	2. dask
+	3. pyspark
+
+[Spark, Dask, and Ray: Choosing the Right Framework (domino.ai)](https://domino.ai/blog/spark-dask-ray-choosing-the-right-framework)
+
