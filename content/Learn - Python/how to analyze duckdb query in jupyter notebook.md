@@ -1,3 +1,8 @@
+---
+created: 2024-09-30T21:35
+updated: 2024-09-30T21:53
+---
+
 https://duckdb.org/docs/guides/meta/explain_analyze.html
 
 

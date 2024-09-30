@@ -1,3 +1,8 @@
+---
+created: 2024-09-30T21:35
+updated: 2024-09-30T21:53
+---
+
 1. Pipenv, 
 2. pip-tools, 
 3. PDM

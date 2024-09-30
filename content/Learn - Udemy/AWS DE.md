@@ -1,3 +1,8 @@
+---
+created: 2024-09-30T21:35
+updated: 2024-09-30T21:52
+---
+
 select *
 from titanic
 limit 10;

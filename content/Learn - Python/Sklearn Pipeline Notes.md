@@ -1,3 +1,8 @@
+---
+created: 2024-09-30T21:35
+updated: 2024-09-30T21:53
+---
+
 Few things about building pipelines for ml purposes. 
 
 1. look into mlflow for orchestration

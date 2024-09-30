@@ -1,4 +1,8 @@
-ipoc
+---
+created: 2024-09-30T21:35
+updated: 2024-09-30T21:53
+---
+
 https://mlflow.org/docs/2.2.0/index.html#
 https://neptune.ai/blog/best-mlflow-alternatives
 https://valohai.com/blog/metaflow-vs-mlflow/

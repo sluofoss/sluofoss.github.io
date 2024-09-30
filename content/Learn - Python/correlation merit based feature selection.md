@@ -1,3 +1,8 @@
+---
+created: 2024-09-30T21:35
+updated: 2024-09-30T21:53
+---
+
 # general info on feature selection
 https://machinelearningmastery.com/feature-selection-with-real-and-categorical-data/
 

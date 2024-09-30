@@ -1,3 +1,8 @@
+---
+created: 2024-09-30T21:35
+updated: 2024-09-30T21:53
+---
+
 open source
 https://www.nb-data.com/p/python-packages-for-automated-eda
 
