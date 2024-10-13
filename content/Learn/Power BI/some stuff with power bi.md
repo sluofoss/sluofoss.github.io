@@ -1,6 +1,6 @@
 ---
 created: 2024-10-03T20:59
-updated: 2024-10-03T21:06
+updated: 2024-10-10T21:51
 ---
 # pbip
 it is possible to create custom DAX and power query import tables by editing the text file model.bim
@@ -15,3 +15,5 @@ however it doesnt work for power query direct query mode for teradata for some r
 	2. var c2 = calculate(table, relatedtable(hugetable))
 	3. var c3 = calculate(table, relatedtable(hugetable))
 	4. return union(c1, c2, c3)
+
+you can query cube (ssas) using dax nested within  m query, in m query you can have loop, thus it should be able to get around that. but have been hitting alot of server side error.

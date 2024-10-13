@@ -1,6 +1,7 @@
 ---
 created: 2024-09-30T21:35
-updated: 2024-09-30T21:52
+updated: 2024-10-10T00:04
+draft: "true"
 ---
 
 select *
