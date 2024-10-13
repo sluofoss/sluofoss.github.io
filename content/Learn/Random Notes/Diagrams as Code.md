@@ -1,9 +1,9 @@
 ---
 created: 2024-10-13T22:01
-updated: 2024-10-13T22:03
+updated: 2024-10-13T22:18
 ---
 # potential diagrams in markdown 
-- prismjs (this seems to be basis for different markdown diagram rendering)
+- prismjs (not a diagram but do syntax highlighting of the code itself)
 - plantuml (really old and mature)
 - mermaid (avail in github and gitlab)
 - d2 
