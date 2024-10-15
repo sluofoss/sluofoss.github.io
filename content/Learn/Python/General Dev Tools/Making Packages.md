@@ -1,6 +1,6 @@
 ---
 created: 2024-09-30T21:35
-updated: 2024-09-30T21:53
+updated: 2024-10-16T00:01
 ---
 
 1. Pipenv, 
@@ -22,8 +22,8 @@ poetry create platform independent lock file
 https://star-history.com/#indygreg/python-build-standalone&pdm-project/pdm&astral-sh/rye&python-poetry/poetry&pypa/hatch&pypa/pipenv&astral-sh/uv&jazzband/pip-tools&pypa/pip&Date
 
 
-uv is growing to become a replacement of rye
-uv is part of rye
+uv is growing to become a full replacement of rye
+uv is used by rye
+uv is catching up to poetry in terms of github stars
 
-uv is catching up to poetry
 

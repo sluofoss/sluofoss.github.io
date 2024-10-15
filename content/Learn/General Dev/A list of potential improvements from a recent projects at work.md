@@ -1,6 +1,6 @@
 ---
 created: 2024-10-13T22:12
-updated: 2024-10-13T22:13
+updated: 2024-10-16T00:22
 ---
 # 🥼Evaluation, explainability, experiment:​
 
@@ -10,7 +10,7 @@ updated: 2024-10-13T22:13
 
 3. Metric/Model that balance precision recall​
 
-4. Model calibration​
+4. Add model calibration to pipeline [[Sklearn Pipeline Notes]]​ 
 
 5. Split data by time group instead​
 
@@ -18,9 +18,9 @@ updated: 2024-10-13T22:13
 
 # 🧹Code clean up + feature:​
 
-1. Incorporate post grid search feature selection into the pipeline.​
+1. Incorporate post grid search feature selection into the pipeline. [[Sklearn Pipeline Notes]]​
 
-2. MLFlow​
+2. MLFlow​ [[auto experiment and output]]
 
 3. feature source lineage​
 
