@@ -1,6 +1,8 @@
 ---
 created: 2024-10-03T20:59
-updated: 2024-10-10T21:51
+updated: 2024-10-17T00:53
+tags:
+  - analytics
 ---
 # pbip
 it is possible to create custom DAX and power query import tables by editing the text file model.bim

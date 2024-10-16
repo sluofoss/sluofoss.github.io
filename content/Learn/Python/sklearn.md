@@ -1,10 +1,12 @@
 ---
 created: 2024-09-30T21:35
-updated: 2024-09-30T21:38
+updated: 2024-10-17T01:09
 ---
 
 # libraries for extensions of sklearn
 https://koaning.github.io/scikit-lego/api/feature-selection/#sklego.feature_selection.mrmr.MaximumRelevanceMinimumRedundancy
+sklego uses #narwhals
+
 
 https://feature-engine.trainindata.com/en/latest/
 feature engine is only pandas

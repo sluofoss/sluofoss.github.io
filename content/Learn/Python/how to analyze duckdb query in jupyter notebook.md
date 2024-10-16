@@ -1,6 +1,6 @@
 ---
 created: 2024-09-30T21:35
-updated: 2024-09-30T21:53
+updated: 2024-10-17T01:01
 ---
 
 https://duckdb.org/docs/guides/meta/explain_analyze.html
@@ -17,7 +17,7 @@ what you need to do instead is use to python api to get proper output as describ
 https://github.com/duckdb/duckdb/issues/13195
 
 ```python
-query_str = "pragma enable_profiling; explain analyze select * from df"
+query_str = "pragma enable_profiling; select * from df"
 duckdb.sql(query_str).explain('analyze')
 ```
 

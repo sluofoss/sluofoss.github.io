@@ -1,6 +1,6 @@
 ---
 created: 2024-09-30T21:35
-updated: 2024-09-30T21:53
+updated: 2024-10-17T01:09
 ---
 
 1. single node
@@ -13,14 +13,11 @@ get dummies / select case when
 dates
 	polars (10x) < pandas < ?(syntax too complicated and not automated)
 
-adjoin with sklearn: 
+adjoin with [[sklearn]]: 
 	one hot encoding: 
 		pd sparse < pl sparse < pd < pl
 
 feature engine only supports pandas , not polars
-
-
-
 
 1. distributed
 	1. ray
@@ -29,3 +26,9 @@ feature engine only supports pandas , not polars
 
 [Spark, Dask, and Ray: Choosing the Right Framework (domino.ai)](https://domino.ai/blog/spark-dask-ray-choosing-the-right-framework)
 
+
+# compatibility layer on top of dataframe libraries:
+- #narwhals
+	- currently supports pandas, polars, dask. 
+	- duckdb, pyspark, ibis on roadmap
+	- https://narwhals-dev.github.io/narwhals/roadmap_and_related/
