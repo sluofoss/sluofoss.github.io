@@ -1,10 +1,10 @@
 ---
 created: 2024-10-13T22:11
-updated: 2024-10-13T22:11
+updated: 2024-10-16T23:47
 ---
 [PowerBI Is A Human Rights Violation — Ludicity (mataroa.blog)](https://ludic.mataroa.blog/blog/powerbi-is-a-human-rights-violation/)
 
-[User-defined aggregations - Power BI | Microsoft Learn](https://learn.microsoft.com/en-us/power-bi/transform-model/aggregations-advanced)
+[[(https://learn.microsoft.com/en-us/power-bi/transform-model/aggregations-advanced)|User-defined aggregations - Power BI | Microsoft Learn]]
 
 [Solved: Better Performance with TREATAS - Microsoft Fabric Community](https://community.fabric.microsoft.com/t5/Desktop/Better-Performance-with-TREATAS/td-p/3696907)
 
