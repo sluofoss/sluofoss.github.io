@@ -1,6 +1,6 @@
 ---
 created: 2024-10-16T00:13
-updated: 2024-10-17T00:42
+updated: 2024-10-17T20:27
 ---
 - [ ] add github workflow to alt-learn and finance-etc
 - [ ] see how to improve graph view in obsidian quartz
@@ -11,3 +11,4 @@ updated: 2024-10-17T00:42
 - [ ] set up cloudflare email forwarding with custom domain
 	- forward to personal email + send using custom domain using sendgrid (?)
 	- https://www.reddit.com/r/selfhosted/comments/13p993z/cloudflare_email_forwarding/
+- [ ] explore #Logseq after December, maybe performance ready and could be self hosted. 

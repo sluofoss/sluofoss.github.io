@@ -1,13 +1,32 @@
 ---
 created: 2024-10-17T01:27
-updated: 2024-10-17T01:29
+updated: 2024-10-17T20:25
 ---
-Options:
-- obsidian
-	- proprietory
+# Options:
+- #Obsidian
+	- proprietary
 	- more plugins.
-- logseq
+- #Logseq
 	- foss
 	- the graph view after publish seems much better.
-- joplin
+	- growing github star
+		- [GitHub Star History (star-history.com)](https://star-history.com/#logseq/logseq&Date)
+	- ## good features
+		- have docker container that can be used to self host.
+			- cloudflare tunnel authentication access
+			- [Is it possible to allow access only to specified users? - Zero Trust - Cloudflare Community](https://community.cloudflare.com/t/is-it-possible-to-allow-access-only-to-specified-users/640574)
+			- [Setup your Domain using Cloudflare Tunnels and Zero Trust (noted.lol)](https://noted.lol/cloudflare-tunnel-and-zero-trust/)
+			- [selfhost remote logseq instance - auth : r/logseq (reddit.com)](https://www.reddit.com/r/logseq/comments/1ajx9qx/selfhost_remote_logseq_instance_auth/)
+			- [Restricting Access with HTTP Basic Authentication | NGINX Documentation](https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/)
+			- [logseq/docs/docker-web-app-guide.md at master · logseq/logseq (github.com)](https://github.com/logseq/logseq/blob/master/docs/docker-web-app-guide.md)
+		- temporary web version
+			- [https://demo.logseq.com/#/](https://demo.logseq.com/#/)
+		- also have excalidraw plugin
+		- [haydenull/logseq-plugin-excalidraw (github.com)](https://github.com/haydenull/logseq-plugin-excalidraw)
+	- ## current issues
+		- logseq not on google play, but on apple store
+		- logseq apk performance on mobile apparent have issues on low spec devices.
+		- people are getting impatient for feature development. Apparently the database (db) version (speed up local caching) has been in development for a while. 
+			- [Database version (closed alpha test started) on Logseq Roadmap | Trello](https://trello.com/c/0hUluTN4/1128-database-version-closed-alpha-test-started)
+- #Joplin
 	- foss
