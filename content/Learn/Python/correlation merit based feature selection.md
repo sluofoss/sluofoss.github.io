@@ -17,3 +17,5 @@ https://www.kaggle.com/code/sgalella/correlation-heatmaps-with-hierarchical-clus
 
 also, the following implementation of the same algo (I think?) is found. maybe it's faster? need further investigation when free.
 https://github.com/ZixiaoShen/Correlation-based-Feature-Selection/blob/master/CFSmethod/CFS.py
+
+This only considers binary classification.

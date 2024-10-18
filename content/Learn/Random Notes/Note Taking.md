@@ -1,17 +1,25 @@
 ---
 created: 2024-10-17T01:27
-updated: 2024-10-17T20:25
+updated: 2024-10-18T20:26
 ---
+# Requirements:
+- uses [[Markdown]]
 # Options:
 - #Obsidian
 	- proprietary
 	- more plugins.
+	- ### Publish
+		- easily publish digital garden using foss with quartz. 
 - #Logseq
 	- foss
 	- the graph view after publish seems much better.
 	- growing github star
 		- [GitHub Star History (star-history.com)](https://star-history.com/#logseq/logseq&Date)
-	- ## good features
+	- ### Publish
+		- https://discuss.logseq.com/t/how-to-publish-your-logseq-as-selfhosted-site/16412
+		- https://docs.logseq.com/#/page/publishing
+		- https://candideu.github.io/logseq-demo-graph-site-export/#/page/publishing%20your%20graph%20online
+	- ### good features
 		- have docker container that can be used to self host.
 			- cloudflare tunnel authentication access
 			- [Is it possible to allow access only to specified users? - Zero Trust - Cloudflare Community](https://community.cloudflare.com/t/is-it-possible-to-allow-access-only-to-specified-users/640574)
@@ -23,7 +31,11 @@ updated: 2024-10-17T20:25
 			- [https://demo.logseq.com/#/](https://demo.logseq.com/#/)
 		- also have excalidraw plugin
 		- [haydenull/logseq-plugin-excalidraw (github.com)](https://github.com/haydenull/logseq-plugin-excalidraw)
-	- ## current issues
+	- ### current issues
+		- doesnt work on firefox properly? There are talk to migrate it from electron (chromium based) to Tauri.
+			- https://v2.tauri.app/
+			- https://github.com/logseq/logseq/discussions/5875
+			- https://www.reddit.com/r/logseq/comments/1frzi3j/firefox_not_supported/
 		- logseq not on google play, but on apple store
 		- logseq apk performance on mobile apparent have issues on low spec devices.
 		- people are getting impatient for feature development. Apparently the database (db) version (speed up local caching) has been in development for a while. 
