@@ -37,6 +37,10 @@ tags:
         - sed approach
           - https://www.heaton.dev/2022/05/use-terraform-graph-in-mermaidjs/
   - https://kroki.io/ has api taking diagram encoded using deflate + base64 algorithm. This can act as a substitute until one learn how to use `sed` to do dirty conversion from `dot` to `mermaid` as described in 
+  - https://www.gravizo.com/ is another website with api that uses graphviz to render DOT, PlantUML and UMLGraph syntax diagrams
+    - example
+    - <img src='https://g.gravizo.com/svg?%0A digraph G {%0A   main -> parse -> execute;%0A   main -> init;%0A   main -> cleanup;%0A   execute -> make_string;%0A   execute -> printf%0A   init -> make_string;%0A   main -> printf;%0A   execute -> compare;%0A }
+'/>
   - #Obsidian has plugins that support graphviz. However, to render output from custom obsidian plugin feels complicated. 
     - https://joschua.io/posts/2023/09/01/obsidian-publish-dataview
       - this is trying to:

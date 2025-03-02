@@ -5,8 +5,8 @@ updated: 2025-03-02T21:42
 ---
 
 # Tldr:
-	Mdx not required,
-	We are not dealing with cube (MOLAP) in Power BI
+- Mdx not required,
+- We are not dealing with cube (MOLAP) in #powerbi
 
 # Investigate
 	1. is power bi semantic model stored tabular or a cube? 
