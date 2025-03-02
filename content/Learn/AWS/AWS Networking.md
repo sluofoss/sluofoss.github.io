@@ -1,7 +1,7 @@
 ---
 title: AWS Networking
 created: 2024-12-24
-updated: 2024-12-31T15:17
+updated: 2025-03-02T15:28
 tags:
   - aws
 ---
@@ -13,6 +13,10 @@ https://repost.aws/questions/QUK_vSmINHSXCC8oVwe3DVsA/aws-theory-why-an-ec2-need
 https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html
 
 default vpc are all public subnets, i.e. accessible from public internet
+
+## NAT
+#NAT
+
 # Subnet
 
 # CIDR

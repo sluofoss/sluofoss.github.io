@@ -5,7 +5,7 @@ updated: 2024-12-02T01:02
 ---
 # requirements:
 - VPN
-- dynamic IP, NAT for home host.
+- dynamic IP, #NAT for home host.
 - 4g compatible
 - NBN compatible
 # routers brands 
