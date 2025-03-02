@@ -31,3 +31,8 @@ tags:
 * power bi dashboard ideas
   * https://www.projectpro.io/article/power-bi-microsoft-projects-examples-and-ideas-for-practice/533
   * https://www.alphaa.ai/cds-resources/power-bi-project-2023
+* django projects:
+  * https://data-flair.training/blogs/django-project-ideas/
+  * https://medium.com/@emmywilliamson/15-django-project-ideas-for-beginners-to-advanced-level-435b7a58ef5f
+* real time data source for arbitrary projects
+  * https://ably.com/blog/10-realtime-data-sources-you-wont-believe-are-free

@@ -1,7 +1,7 @@
 ---
 title: TODOS
 created: 2024-10-16T00:13
-updated: 2025-01-06T18:22
+updated: 2025-03-02T22:17
 ---
 
 - [ ] add github workflow to alt-learn and finance-etc
@@ -28,3 +28,4 @@ updated: 2025-01-06T18:22
 - [ ] auto update modified date in vscode
 - [ ] power bi project for data visualization.
 - [ ] auto add child index to parent index page (.foam/index_gen) 
+- [ ] (datacamp) user-oriented design in power bi

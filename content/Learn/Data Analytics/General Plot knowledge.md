@@ -1,7 +1,7 @@
 ---
 title: General Plot knowledge
 created: 2024-11-05T22:02
-updated: 2024-11-06T00:11
+updated: 2025-03-02T21:51
 tags:
   - diagram
 ---
@@ -26,4 +26,6 @@ tags:
 | bokeh          | wide                  |
 
 https://anvil.works/blog/tidy-data
+(long vs wide data)
+
 https://community.fabric.microsoft.com/t5/Desktop/Power-BI-Long-vs-Wide-Dataset/m-p/3794209
