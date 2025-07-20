@@ -29,13 +29,13 @@ tips
 acme
     external services--> api management --> api --> backend 
 
-rest api framework (node.js)
+# rest api framework (node.js)
     express
     hapi
      restify
      strongloop (IBM)
 
-api management platform
+# api management platform
     ibm api connect
     mulesoft
     apigee
@@ -48,117 +48,57 @@ api management platform
     mongo db atlas/cloud
 
 
-evolution of rpc and rest json
+# evolution of rpc and rest json
      
     api is an rpc mechanism
-
-    rest is api that follows rest design principles
-
-    rest
-        representational state transfer
-        6 principles
-            uniform interface
-                individual resources are identified in requests uri /url
-                representation of resources
-                self descriptive messages - metadata
-                hypermedia
-                crud
-            stateless
-                client manage its own state
-                requests are self contained
-            client server
-                decouple
-                    no impact of change
-                    independent evolution
-                    separation of concerns
-            cacheable
-                http header to control the cache behaviour
-                managing it's own state 
-                    lead to increase chattiness (multiple calls to get resources) because client need to send state data to server
-
-                cache control directives (part of http header)
-                cache-control
-                    can have multiple
-                    no-store, private, public, max-age
-                expires
-                last modified
-                etag
-                application (cache) <- api gateway/proxy (cache) <- api server (cache) <- database (read cache)
-            layer system
-                client > gateway > load balancer > rest api > database
-                one layer only communicate with another
-                no bypass
-            code on demand
-                hateoas
-                    hypertext as the engine of application state
-                    in response returned by server, also included subsequent potential action allowed to be done on the resource (aka subsequent rest api links)
-                    server knows the resource state - leads to efficiencies
-                    server may chagne the uri without breaking the client
-                    server may add new functionality
-
 
     1991 corba
     1998 soap
 
-    webservice = rpc over internet
-    http xml
-    http soap/xml
-    http json
-    http rest
 
-    why rest
-        common set of design principals
-        best practices for building and managing rest api
-        compatible with any data format
-        simplicity | flexibility
+    rest is api that follows rest design principles
 
-    rest is not tied to protocal, i.e. could be http
+# rest
+    representational state transfer
+    6 principles
+        uniform interface
+            individual resources are identified in requests uri /url
+            representation of resources
+            self descriptive messages - metadata
+            hypermedia
+            crud
+        stateless
+            client manage its own state
+            requests are self contained
+        client server
+            decouple
+                no impact of change
+                independent evolution
+                separation of concerns
+        cacheable
+            http header to control the cache behaviour
+            managing it's own state 
+                lead to increase chattiness (multiple calls to get resources) because client need to send state data to server
 
-    what makes api restful
-        set of principles
-        architectural
-        api exposes resources
-    not tied to tech, standard, http/json
-
-types of api
-
-    private 
-        used by dev team internal
-
-    public or external
-        use from website/app
-
-    partner
-        trusted org
-
-    no diff in implementation
-    but in management
-
-    considerations
-        api security 
-            token vs oauth secret
-        access request
-            email ticket vs portal
-        documentiaton
-            pdf vs webpage
-        sla management
-            monitor throughput and uptime tier for different types
-
-api value chain
-    direct revenue (subscription)
-    indirect benefit (ebay, fedex, indeed)
-        partner eco system 
-        agility
-        brand recognition
-        competitive advantage 
-        social good
-    end consumer of asset:
-        individual users
-            .
-        enterprise users
-            .
-    asset -> api dev -> api -> app dev --> app -> end user
-
+            cache control directives (part of http header)
+            cache-control
+                can have multiple
+                no-store, private, public, max-age
+            expires
+            last modified
+            etag
+            application (cache) <- api gateway/proxy (cache) <- api server (cache) <- database (read cache)
+        layer system
+            client > gateway > load balancer > rest api > database
+            one layer only communicate with another
+            no bypass
+        code on demand
+            hateoas
+                hypertext as the engine of application state
+                in response returned by server, also included subsequent potential action allowed to be done on the resource (aka subsequent rest api links)
+                server knows the resource state - leads to efficiencies
+                server may chagne the uri without breaking the client
+                server may add new functionality
 
     RMM
 
@@ -185,8 +125,6 @@ api value chain
         level 3 
             hypermedia
             hateoas
-
-
         https://stackoverflow.com/questions/30967822/when-do-i-use-path-parameters-vs-query-parameters-in-a-restful-api
 
     web app vs rest api
@@ -211,3 +149,197 @@ api value chain
                 get post
             rest 
                 crud
+
+    webservice = rpc over internet
+    http xml
+    http soap/xml
+    http json
+    http rest
+
+# why rest
+        common set of design principals
+        best practices for building and managing rest api
+        compatible with any data format
+        simplicity | flexibility
+
+    rest is not tied to protocal, i.e. could be http
+
+    what makes api restful
+        set of principles
+        architectural
+        api exposes resources
+    not tied to tech, standard, http/json
+
+# types of api
+
+    private 
+        used by dev team internal
+
+    public or external
+        use from website/app
+
+    partner
+        trusted org
+
+    no diff in implementation
+    but in management
+
+    considerations
+        api security 
+            token vs oauth secret
+        access request
+            email ticket vs portal
+        documentiaton
+            pdf vs webpage
+        sla management
+            monitor throughput and uptime tier for different types
+
+# api value chain
+    direct revenue (subscription)
+    indirect benefit (ebay, fedex, indeed)
+        partner eco system 
+        agility
+        brand recognition
+        competitive advantage 
+        social good
+    end consumer of asset:
+        individual users
+            .
+        enterprise users
+            .
+    asset -> api dev -> api -> app dev --> app -> end user
+
+# api design
+## api end point
+    
+    domain/product/version/resource/{id}
+
+    base: domain
+        - do not use www subdomain for api
+        - api, app, developer
+        - or separate url domain e.g. api.walmartlabs instead of api.walmart
+
+    group name [optional]: product
+        e.g. different team, grouping of resources.
+
+    version: (multiple versions)
+        switch between versions
+        switch on own schedule
+        (can also use header of query parameters)
+
+    root url:
+        domain+product+version
+    
+## practice for resource name, actiopn & associations
+- most use plural for resource names
+- operations on resource e.g. calc / report
+  - search (action)
+  - estimate/price
+  - friendships/lookup
+- resource associations
+  - avoid deep nesting (max level 3)
+  - use subquery to avoid deep nesting 
+## contract and status code
+- api call flow
+  - client -> http verb -> rest resource
+    - request: query param, header, body
+    - response: status code (part of header), standard/custom header
+        status code: 
+            1xx, informational
+            2xx success
+            3xx redirect
+            4xx client error
+            5xx server error
+    - body: data format, response schema
+# crud 
+- create post
+  - request body contains the resource representation
+  - return body may return new resource instance or link to the resource instance
+  - 2xx success resource created
+  - 4xx bad request, missing field
+  - 5xx issue in processes, database not reachable
+- retrieve get
+  - request body is optional
+  - 200 ok
+  - 4xx bad request (resource not found)
+  - 5xx issue in processing 
+- update (put,patch)
+  - 200 success (updated resource in body)
+  - 201 created (body data optional)
+  - 204 no content (in body)
+- delete
+  - 200 success delete resource in body
+  - 204 no content (no content in body)
+  - 4xx bad request 
+  - 5xx issue in processing
+- twitter use get and post for all their api
+
+# data format
+- support multiple format
+- request/response
+- client should be able to dictate how to receive format
+  - options:
+    - query parameter
+    - http header accept:application/json (or csv etc ...)
+    - resource format suffix e.g. forecast/daily{days}day.json
+  - 415 unsupported type
+
+# test environment 
+acmetravel
+
+
+# erro pattern
+## api error handling practices
+- patterns:
+  - use header: status-code + reason-phrase + x-custom-header
+  - status code = 200 + error in standard format (bad practice)
+  - header + body: if status code = 2xx then body for resource info/link, otherwise body for error information (most preferred)
+- on average 10 codes in use
+- common codes
+  - 200 ok
+  - 201 created
+  - 400 bad req
+  - 404 not found
+  - 401 unauthorized
+  - 403 forbidden
+  - 415 unsupported format
+  - 500 server error
+- more code is hard to manage
+- xperia (14)
+- tomtom (6)
+
+## application error 
+aka body of the error message to be given to ingester
+- informative & actionable 
+  - link to api doc
+  - hint to address issue
+  - message that may be presented to end users
+- simple
+- consistent
+
+
+application api status code
+    define and use numeric code
+    e.g. 7002, required field vacation 'description' is missing
+
+### vacation error template
+text
+timestamp
+method: post get
+endpoint
+errors: array of
+    code: application error code
+    text: description
+    hints: to dev on how to solve it
+    info: link to doc for more info
+payload: debug only (may contain sensitive data)
+
+paypal also have debug id
+
+### response envelope (very few api)
+status
+payload
+
+experia
+    error
+    entity
