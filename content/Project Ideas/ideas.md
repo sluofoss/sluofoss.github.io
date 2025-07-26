@@ -36,3 +36,4 @@ tags:
   * https://medium.com/@emmywilliamson/15-django-project-ideas-for-beginners-to-advanced-level-435b7a58ef5f
 * real time data source for arbitrary projects
   * https://ably.com/blog/10-realtime-data-sources-you-wont-believe-are-free
+* replicate mortgage.monster
