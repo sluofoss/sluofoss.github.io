@@ -1,225 +1,1529 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="d1" for="edge" attr.name="__labels__" attr.type="string" />
+  <key id="d2" for="edge" attr.name="__labels__" attr.type="string" />
+  <key id="d1" for="node" attr.name="filename" attr.type="string" />
   <key id="d0" for="node" attr.name="__labels__" attr.type="string" />
   <graph edgedefault="directed">
-    <node id="All_Notes_Index">
+    <node id="All Notes Index">
       <data key="d0">File</data>
+      <data key="d1">All Notes Index</data>
     </node>
     <node id="default_index">
       <data key="d0">File</data>
+      <data key="d1">default_index</data>
     </node>
     <node id="index">
       <data key="d0">File</data>
+      <data key="d1">index</data>
     </node>
     <node id="statistical">
       <data key="d0">Tag</data>
+      <data key="d1">index</data>
     </node>
     <node id="data">
       <data key="d0">Tag</data>
+      <data key="d1">DevOps</data>
     </node>
-    <node id="Reading_List">
+    <node id="Reading List">
       <data key="d0">File</data>
+      <data key="d1">Reading List</data>
     </node>
-    <node id="Terraform" />
+    <node id="Terraform">
+      <data key="d0">File</data>
+      <data key="d1">Terraform</data>
+    </node>
     <node id="k8s">
       <data key="d0">Tag</data>
+      <data key="d1">DevOps</data>
     </node>
     <node id="simulated">
       <data key="d0">Tag</data>
+      <data key="d1">Reading List</data>
     </node>
-    <node id="Trash_Talking_Microsoft">
+    <node id="Trash Talking Microsoft">
       <data key="d0">File</data>
+      <data key="d1">Trash Talking Microsoft</data>
     </node>
-    <node id="property_data_information_resources">
+    <node id="property data information resources">
       <data key="d0">File</data>
+      <data key="d1">property data information resources</data>
     </node>
-    <node id="Holiday_Destination_Flight_Recommendation_and_EDA">
+    <node id="Holiday Destination Flight Recommendation and EDA">
       <data key="d0">File</data>
+      <data key="d1">Holiday Destination Flight Recommendation and EDA</data>
     </node>
     <node id="ideas">
       <data key="d0">File</data>
+      <data key="d1">ideas</data>
     </node>
     <node id="project">
       <data key="d0">Tag</data>
+      <data key="d1">ZettelKasten Options</data>
     </node>
     <node id="framework">
       <data key="d0">File</data>
+      <data key="d1">framework</data>
     </node>
-    <node id="AWS_Account_Management">
+    <node id="AWS Account Management">
       <data key="d0">File</data>
+      <data key="d1">AWS Account Management</data>
     </node>
-    <node id="AWS_Networking">
+    <node id="AWS Networking">
       <data key="d0">File</data>
+      <data key="d1">AWS Networking</data>
     </node>
     <node id="TODO">
       <data key="d0">Tag</data>
+      <data key="d1">5. Use DAX iterator functions in Power BI Desktop models </data>
     </node>
     <node id="NAT">
       <data key="d0">Tag</data>
+      <data key="d1">Router shopping</data>
     </node>
-    <node id="Cost_estimation_to_run_frequently_scheduled_job">
+    <node id="Cost estimation to run frequently scheduled job">
       <data key="d0">File</data>
+      <data key="d1">Cost estimation to run frequently scheduled job</data>
     </node>
-    <node id="Cloud_Comparison">
+    <node id="Cloud Comparison">
       <data key="d0">File</data>
+      <data key="d1">Cloud Comparison</data>
     </node>
-    <node id="BI__EDA_Solutions">
+    <node id="BI &amp; EDA Solutions">
       <data key="d0">File</data>
+      <data key="d1">BI &amp; EDA Solutions</data>
     </node>
     <node id="Dash">
       <data key="d0">File</data>
+      <data key="d1">Dash</data>
     </node>
     <node id="metabase">
       <data key="d0">Tag</data>
+      <data key="d1">MLOps</data>
     </node>
     <node id="docker">
       <data key="d0">Tag</data>
+      <data key="d1">DevOps</data>
     </node>
     <node id="jar">
       <data key="d0">Tag</data>
+      <data key="d1">BI &amp; EDA Solutions</data>
     </node>
     <node id="apache">
       <data key="d0">Tag</data>
+      <data key="d1">MLOps</data>
     </node>
     <node id="grafana">
       <data key="d0">Tag</data>
+      <data key="d1">DevOps</data>
     </node>
     <node id="KanariesPyGWalker">
       <data key="d0">Tag</data>
+      <data key="d1">auto eda</data>
     </node>
     <node id="plotly">
       <data key="d0">Tag</data>
+      <data key="d1">MLOps</data>
     </node>
     <node id="dbt">
       <data key="d0">Tag</data>
+      <data key="d1">MLOps</data>
     </node>
     <node id="bokeh">
       <data key="d0">Tag</data>
+      <data key="d1">BI &amp; EDA Solutions</data>
     </node>
     <node id="streamlit">
       <data key="d0">Tag</data>
+      <data key="d1">BI &amp; EDA Solutions</data>
     </node>
     <node id="Qlik">
       <data key="d0">Tag</data>
+      <data key="d1">BI &amp; EDA Solutions</data>
     </node>
     <node id="tableau">
       <data key="d0">Tag</data>
+      <data key="d1">BI &amp; EDA Solutions</data>
     </node>
     <node id="powerbi">
       <data key="d0">Tag</data>
+      <data key="d1">DAX vs MDX</data>
     </node>
     <node id="redis">
       <data key="d0">Tag</data>
+      <data key="d1">Dash</data>
     </node>
     <node id="flask">
       <data key="d0">Tag</data>
+      <data key="d1">Dash</data>
     </node>
-    <node id="General_Plot_knowledge">
+    <node id="General Plot knowledge">
       <data key="d0">File</data>
+      <data key="d1">General Plot knowledge</data>
     </node>
     <node id="pandas">
       <data key="d0">Tag</data>
+      <data key="d1">Data Processing Library Comparison</data>
     </node>
-    <node id="Power_BI_PL300_cert_prep">
+    <node id="Power BI PL300 cert prep">
       <data key="d0">File</data>
+      <data key="d1">Power BI PL300 cert prep</data>
     </node>
-    <node id="teradata_table_profiler_draft">
+    <node id="teradata table profiler draft">
       <data key="d0">File</data>
+      <data key="d1">teradata table profiler draft</data>
     </node>
     <node id="certifications">
       <data key="d0">File</data>
+      <data key="d1">certifications</data>
     </node>
     <node id="aws">
       <data key="d0">Tag</data>
+      <data key="d1">Terraform</data>
     </node>
-    <node id="Cloud_Storage_in_Data_Engineering">
+    <node id="Cloud Storage in Data Engineering">
       <data key="d0">File</data>
+      <data key="d1">Cloud Storage in Data Engineering</data>
+    </node>
+    <node id="Data Engineering Code Design Patterns">
+      <data key="d0">File</data>
+      <data key="d1">Data Engineering Code Design Patterns</data>
+    </node>
+    <node id="idempotence">
+      <data key="d0">Tag</data>
+      <data key="d1">Data Engineering Code Design Patterns</data>
+    </node>
+    <node id="determinism">
+      <data key="d0">Tag</data>
+      <data key="d1">Data Engineering Code Design Patterns</data>
+    </node>
+    <node id="idempotent">
+      <data key="d0">Tag</data>
+      <data key="d1">Data Engineering Code Design Patterns</data>
+    </node>
+    <node id="atomic">
+      <data key="d0">Tag</data>
+      <data key="d1">Data Engineering Code Design Patterns</data>
+    </node>
+    <node id="singleton">
+      <data key="d0">Tag</data>
+      <data key="d1">Data Engineering Code Design Patterns</data>
+    </node>
+    <node id="pyspark">
+      <data key="d0">Tag</data>
+      <data key="d1">Sklearn Pipeline Notes</data>
+    </node>
+    <node id="factory">
+      <data key="d0">Tag</data>
+      <data key="d1">Data Engineering Code Design Patterns</data>
+    </node>
+    <node id="Data Processing Library Comparison">
+      <data key="d0">File</data>
+      <data key="d1">Data Processing Library Comparison</data>
+    </node>
+    <node id="Polars">
+      <data key="d0">File</data>
+      <data key="d1">Polars</data>
+    </node>
+    <node id="sklearn">
+      <data key="d0">File</data>
+      <data key="d1">sklearn</data>
+    </node>
+    <node id="duckdb">
+      <data key="d0">Tag</data>
+      <data key="d1">Data Processing Library Comparison</data>
+    </node>
+    <node id="ray">
+      <data key="d0">Tag</data>
+      <data key="d1">Sklearn Pipeline Notes</data>
+    </node>
+    <node id="dask">
+      <data key="d0">Tag</data>
+      <data key="d1">Sklearn Pipeline Notes</data>
+    </node>
+    <node id="narwhals">
+      <data key="d0">Tag</data>
+      <data key="d1">sklearn</data>
+    </node>
+    <node id="ibis">
+      <data key="d0">Tag</data>
+      <data key="d1">Data Processing Library Comparison</data>
+    </node>
+    <node id="difference between kafka and flink">
+      <data key="d0">File</data>
+      <data key="d1">difference between kafka and flink</data>
+    </node>
+    <node id="MLOps">
+      <data key="d0">File</data>
+      <data key="d1">MLOps</data>
+    </node>
+    <node id="CICD">
+      <data key="d0">File</data>
+      <data key="d1">CICD</data>
+    </node>
+    <node id="feast">
+      <data key="d0">Tag</data>
+      <data key="d1">MLOps</data>
+    </node>
+    <node id="teradata">
+      <data key="d0">Tag</data>
+      <data key="d1">MLOps</data>
+    </node>
+    <node id="spark">
+      <data key="d0">Tag</data>
+      <data key="d1">MLOps</data>
+    </node>
+    <node id="kafka">
+      <data key="d0">Tag</data>
+      <data key="d1">MLOps</data>
+    </node>
+    <node id="pulsar">
+      <data key="d0">Tag</data>
+      <data key="d1">MLOps</data>
+    </node>
+    <node id="api">
+      <data key="d0">Tag</data>
+      <data key="d1">MLOps</data>
+    </node>
+    <node id="warehouse">
+      <data key="d0">Tag</data>
+      <data key="d1">MLOps</data>
+    </node>
+    <node id="postgresql">
+      <data key="d0">Tag</data>
+      <data key="d1">MLOps</data>
+    </node>
+    <node id="sqlmesh">
+      <data key="d0">Tag</data>
+      <data key="d1">Rants About Power BI and How Superset Compares</data>
+    </node>
+    <node id="datahub">
+      <data key="d0">Tag</data>
+      <data key="d1">Rants About Power BI and How Superset Compares</data>
+    </node>
+    <node id="amundsen">
+      <data key="d0">Tag</data>
+      <data key="d1">MLOps</data>
+    </node>
+    <node id="OpenMetadata">
+      <data key="d0">Tag</data>
+      <data key="d1">MLOps</data>
+    </node>
+    <node id="xgboost">
+      <data key="d0">Tag</data>
+      <data key="d1">MLOps</data>
+    </node>
+    <node id="mlflow">
+      <data key="d0">Tag</data>
+      <data key="d1">Sklearn Pipeline Notes</data>
+    </node>
+    <node id="kubeflow">
+      <data key="d0">Tag</data>
+      <data key="d1">auto experiment and output</data>
+    </node>
+    <node id="airflow">
+      <data key="d0">Tag</data>
+      <data key="d1">DevOps</data>
+    </node>
+    <node id="argoflow">
+      <data key="d0">Tag</data>
+      <data key="d1">MLOps</data>
+    </node>
+    <node id="github">
+      <data key="d0">Tag</data>
+      <data key="d1">Markdown Usage Notes</data>
+    </node>
+    <node id="gitlab">
+      <data key="d0">Tag</data>
+      <data key="d1">MLOps</data>
+    </node>
+    <node id="jenkins">
+      <data key="d0">Tag</data>
+      <data key="d1">DevOps</data>
+    </node>
+    <node id="redash">
+      <data key="d0">Tag</data>
+      <data key="d1">MLOps</data>
+    </node>
+    <node id="prometheus">
+      <data key="d0">Tag</data>
+      <data key="d1">DevOps</data>
+    </node>
+    <node id="databricks">
+      <data key="d0">Tag</data>
+      <data key="d1">MLOps</data>
+    </node>
+    <node id="pivot">
+      <data key="d0">Tag</data>
+      <data key="d1">Polars</data>
+    </node>
+    <node id="Python Container Image Size Comparison">
+      <data key="d0">File</data>
+      <data key="d1">Python Container Image Size Comparison</data>
+    </node>
+    <node id="alpine">
+      <data key="d0">Tag</data>
+      <data key="d1">Python Container Image Size Comparison</data>
+    </node>
+    <node id="micro vs macro precision">
+      <data key="d0">File</data>
+      <data key="d1">micro vs macro precision</data>
+    </node>
+    <node id="reading list on explainable ai">
+      <data key="d0">File</data>
+      <data key="d1">reading list on explainable ai</data>
+    </node>
+    <node id="unsupervised learning">
+      <data key="d0">File</data>
+      <data key="d1">unsupervised learning</data>
+    </node>
+    <node id="umap">
+      <data key="d0">Tag</data>
+      <data key="d1">unsupervised learning</data>
+    </node>
+    <node id="AWS Lambda">
+      <data key="d0">File</data>
+      <data key="d1">AWS Lambda</data>
+    </node>
+    <node id="DevOps">
+      <data key="d0">File</data>
+      <data key="d1">DevOps</data>
+    </node>
+    <node id="Makefile">
+      <data key="d0">Tag</data>
+      <data key="d1">CICD</data>
+    </node>
+    <node id="Crossplane">
+      <data key="d0">File</data>
+      <data key="d1">Crossplane</data>
+    </node>
+    <node id="Diagrams as Code.md" />
+    <node id="what">
+      <data key="d0">Tag</data>
+      <data key="d1">Terraform</data>
+    </node>
+    <node id="A list of potential improvements from a recent projects at work">
+      <data key="d0">File</data>
+      <data key="d1">A list of potential improvements from a recent projects at work</data>
+    </node>
+    <node id="Sklearn Pipeline Notes">
+      <data key="d0">File</data>
+      <data key="d1">Sklearn Pipeline Notes</data>
+    </node>
+    <node id="auto experiment and output">
+      <data key="d0">File</data>
+      <data key="d1">auto experiment and output</data>
+    </node>
+    <node id="Code as Diagram - Flowchart">
+      <data key="d0">File</data>
+      <data key="d1">Code as Diagram - Flowchart</data>
+    </node>
+    <node id="code2flow">
+      <data key="d0">Tag</data>
+      <data key="d1">Documenting package</data>
+    </node>
+    <node id="Diagrams as Code">
+      <data key="d0">File</data>
+      <data key="d1">Diagrams as Code</data>
+    </node>
+    <node id="markdown">
+      <data key="d0">Tag</data>
+      <data key="d1">ZettelKasten Options</data>
+    </node>
+    <node id="install">
+      <data key="d0">Tag</data>
+      <data key="d1">Diagrams as Code</data>
+    </node>
+    <node id="issuecomment">
+      <data key="d0">Tag</data>
+      <data key="d1">WSL ip pinging issues</data>
+    </node>
+    <node id="Obsidian">
+      <data key="d0">Tag</data>
+      <data key="d1">ZettelKasten Options</data>
+    </node>
+    <node id="docker capability at sandboxing malware">
+      <data key="d0">File</data>
+      <data key="d1">docker capability at sandboxing malware</data>
+    </node>
+    <node id="how to create mindmap as code">
+      <data key="d0">File</data>
+      <data key="d1">how to create mindmap as code</data>
+    </node>
+    <node id="Infrastructure as diagram">
+      <data key="d0">File</data>
+      <data key="d1">Infrastructure as diagram</data>
+    </node>
+    <node id="Markdown Usage Notes">
+      <data key="d0">File</data>
+      <data key="d1">Markdown Usage Notes</data>
+    </node>
+    <node id="admonitions">
+      <data key="d0">Tag</data>
+      <data key="d1">Markdown Usage Notes</data>
+    </node>
+    <node id="blockquotes">
+      <data key="d0">Tag</data>
+      <data key="d1">Markdown Usage Notes</data>
+    </node>
+    <node id="alerts">
+      <data key="d0">Tag</data>
+      <data key="d1">Markdown Usage Notes</data>
+    </node>
+    <node id="quartz">
+      <data key="d0">Tag</data>
+      <data key="d1">enable TOC and File Explorer for quartz mobile</data>
+    </node>
+    <node id="refactoring old personal budgeting code">
+      <data key="d0">File</data>
+      <data key="d1">refactoring old personal budgeting code</data>
+    </node>
+    <node id="Making Packages">
+      <data key="d0">File</data>
+      <data key="d1">Making Packages</data>
+    </node>
+    <node id="Windows git uses wrong SSH after Github config instructions">
+      <data key="d0">File</data>
+      <data key="d1">Windows git uses wrong SSH after Github config instructions</data>
+    </node>
+    <node id="Behavioural Interview Questions">
+      <data key="d0">File</data>
+      <data key="d1">Behavioural Interview Questions</data>
+    </node>
+    <node id="question to ask">
+      <data key="d0">File</data>
+      <data key="d1">question to ask</data>
+    </node>
+    <node id="Pasted image 20250506154227.png" />
+    <node id="Router cant change DNS issue">
+      <data key="d0">File</data>
+      <data key="d1">Router cant change DNS issue</data>
+    </node>
+    <node id="WSL ip pinging issues.md" />
+    <node id="wslconfig">
+      <data key="d0">Tag</data>
+      <data key="d1">Router cant change DNS issue</data>
+    </node>
+    <node id="Router shopping">
+      <data key="d0">File</data>
+      <data key="d1">Router shopping</data>
+    </node>
+    <node id="What can ISP see or control">
+      <data key="d0">File</data>
+      <data key="d1">What can ISP see or control</data>
+    </node>
+    <node id="WSL ip pinging issues">
+      <data key="d0">File</data>
+      <data key="d1">WSL ip pinging issues</data>
+    </node>
+    <node id="Pasted image 20250226005602.png" />
+    <node id="Pasted image 20250226232416.png" />
+    <node id="auto eda">
+      <data key="d0">File</data>
+      <data key="d1">auto eda</data>
+    </node>
+    <node id="correlation merit based feature selection">
+      <data key="d0">File</data>
+      <data key="d1">correlation merit based feature selection</data>
+    </node>
+    <node id="how to analyze duckdb query in jupyter notebook">
+      <data key="d0">File</data>
+      <data key="d1">how to analyze duckdb query in jupyter notebook</data>
+    </node>
+    <node id="jupyter">
+      <data key="d0">File</data>
+      <data key="d1">jupyter</data>
+    </node>
+    <node id="Python General Development Tools Index">
+      <data key="d0">File</data>
+      <data key="d1">Python General Development Tools Index</data>
+    </node>
+    <node id="Environment Manager">
+      <data key="d0">File</data>
+      <data key="d1">Environment Manager</data>
+    </node>
+    <node id="Testing Packages">
+      <data key="d0">File</data>
+      <data key="d1">Testing Packages</data>
+    </node>
+    <node id="Publishing Packages Methods">
+      <data key="d0">File</data>
+      <data key="d1">Publishing Packages Methods</data>
+    </node>
+    <node id="Documenting package">
+      <data key="d0">File</data>
+      <data key="d1">Documenting package</data>
+    </node>
+    <node id="joblib">
+      <data key="d0">Tag</data>
+      <data key="d1">Sklearn Pipeline Notes</data>
+    </node>
+    <node id="diagram">
+      <data key="d0">Tag</data>
+      <data key="d1">Sklearn Pipeline Notes</data>
+    </node>
+    <node id="model">
+      <data key="d0">Tag</data>
+      <data key="d1">Sklearn Pipeline Notes</data>
+    </node>
+    <node id="sklego">
+      <data key="d0">Tag</data>
+      <data key="d1">sklearn</data>
+    </node>
+    <node id="sklearn_ohe_pl_vs_pd">
+      <data key="d0">File</data>
+      <data key="d1">sklearn_ohe_pl_vs_pd</data>
+    </node>
+    <node id="Personal Display requirements">
+      <data key="d0">File</data>
+      <data key="d1">Personal Display requirements</data>
+    </node>
+    <node id="single cable" />
+    <node id="sp">
+      <data key="d0">Tag</data>
+      <data key="d1">Personal Display requirements</data>
+    </node>
+    <node id="Personal File Storage">
+      <data key="d0">File</data>
+      <data key="d1">Personal File Storage</data>
+    </node>
+    <node id="practice typing">
+      <data key="d0">File</data>
+      <data key="d1">practice typing</data>
+    </node>
+    <node id="TODOS">
+      <data key="d0">File</data>
+      <data key="d1">TODOS</data>
+    </node>
+    <node id="Logseq">
+      <data key="d0">Tag</data>
+      <data key="d1">ZettelKasten Options</data>
+    </node>
+    <node id="foam">
+      <data key="d0">Tag</data>
+      <data key="d1">ZettelKasten Options</data>
+    </node>
+    <node id="dataview">
+      <data key="d0">Tag</data>
+      <data key="d1">ZettelKasten Options</data>
+    </node>
+    <node id="templater">
+      <data key="d0">Tag</data>
+      <data key="d1">ZettelKasten Options</data>
+    </node>
+    <node id="travelling tools">
+      <data key="d0">File</data>
+      <data key="d1">travelling tools</data>
+    </node>
+    <node id="vpn">
+      <data key="d0">File</data>
+      <data key="d1">vpn</data>
+    </node>
+    <node id="api design">
+      <data key="d0">File</data>
+      <data key="d1">api design</data>
+    </node>
+    <node id="software engineering 101">
+      <data key="d0">File</data>
+      <data key="d1">software engineering 101</data>
+    </node>
+    <node id="typescript orm">
+      <data key="d0">File</data>
+      <data key="d1">typescript orm</data>
+    </node>
+    <node id="AWS DE">
+      <data key="d0">File</data>
+      <data key="d1">AWS DE</data>
+    </node>
+    <node id="Markdown in webapps">
+      <data key="d0">File</data>
+      <data key="d1">Markdown in webapps</data>
+    </node>
+    <node id="Combining Obsidian and Foam">
+      <data key="d0">File</data>
+      <data key="d1">Combining Obsidian and Foam</data>
+    </node>
+    <node id="logseq">
+      <data key="d0">Tag</data>
+      <data key="d1">ZettelKasten Options</data>
+    </node>
+    <node id="excalidraw">
+      <data key="d0">Tag</data>
+      <data key="d1">ZettelKasten Options</data>
+    </node>
+    <node id="Note Taking Reflections">
+      <data key="d0">File</data>
+      <data key="d1">Note Taking Reflections</data>
+    </node>
+    <node id="VSCode">
+      <data key="d0">File</data>
+      <data key="d1">VSCode</data>
+    </node>
+    <node id="vscodium">
+      <data key="d0">Tag</data>
+      <data key="d1">ZettelKasten Options</data>
+    </node>
+    <node id="ZettelKasten Options">
+      <data key="d0">File</data>
+      <data key="d1">ZettelKasten Options</data>
+    </node>
+    <node id="loam">
+      <data key="d0">Tag</data>
+      <data key="d1">ZettelKasten Options</data>
+    </node>
+    <node id="dendron">
+      <data key="d0">Tag</data>
+      <data key="d1">ZettelKasten Options</data>
+    </node>
+    <node id="Joplin">
+      <data key="d0">Tag</data>
+      <data key="d1">ZettelKasten Options</data>
+    </node>
+    <node id="tana">
+      <data key="d0">Tag</data>
+      <data key="d1">ZettelKasten Options</data>
+    </node>
+    <node id="Quartz">
+      <data key="d0">Tag</data>
+      <data key="d1">ZettelKasten Options</data>
+    </node>
+    <node id="Jekyll">
+      <data key="d0">Tag</data>
+      <data key="d1">ZettelKasten Options</data>
+    </node>
+    <node id="Hugo">
+      <data key="d0">Tag</data>
+      <data key="d1">ZettelKasten Options</data>
+    </node>
+    <node id="Astro">
+      <data key="d0">Tag</data>
+      <data key="d1">ZettelKasten Options</data>
+    </node>
+    <node id="Eleventy">
+      <data key="d0">Tag</data>
+      <data key="d1">ZettelKasten Options</data>
+    </node>
+    <node id="Mkdocs">
+      <data key="d0">Tag</data>
+      <data key="d1">ZettelKasten Options</data>
+    </node>
+    <node id="Confusing DAX context filter">
+      <data key="d0">File</data>
+      <data key="d1">Confusing DAX context filter</data>
+    </node>
+    <node id="DAX vs MDX">
+      <data key="d0">File</data>
+      <data key="d1">DAX vs MDX</data>
+    </node>
+    <node id="Publishing power bi report for free (kind of)">
+      <data key="d0">File</data>
+      <data key="d1">Publishing power bi report for free (kind of)</data>
+    </node>
+    <node id="Rants About Power BI and How Superset Compares">
+      <data key="d0">File</data>
+      <data key="d1">Rants About Power BI and How Superset Compares</data>
+    </node>
+    <node id="compare">
+      <data key="d0">Tag</data>
+      <data key="d1">Rants About Power BI and How Superset Compares</data>
+    </node>
+    <node id="23362">
+      <data key="d0">Tag</data>
+      <data key="d1">Rants About Power BI and How Superset Compares</data>
+    </node>
+    <node id="14688">
+      <data key="d0">Tag</data>
+      <data key="d1">Rants About Power BI and How Superset Compares</data>
+    </node>
+    <node id="Some Stuff With Power BI">
+      <data key="d0">File</data>
+      <data key="d1">Some Stuff With Power BI</data>
+    </node>
+    <node id="Index - Microsoft Learn (pbi)">
+      <data key="d0">File</data>
+      <data key="d1">Index - Microsoft Learn (pbi)</data>
+    </node>
+    <node id="Index - 1 get started with da">
+      <data key="d0">File</data>
+      <data key="d1">Index - 1 get started with da</data>
+    </node>
+    <node id="Index - 2 prepare data for analysis">
+      <data key="d0">File</data>
+      <data key="d1">Index - 2 prepare data for analysis</data>
+    </node>
+    <node id="Index - 3 Model data with pbi">
+      <data key="d0">File</data>
+      <data key="d1">Index - 3 Model data with pbi</data>
+    </node>
+    <node id="Index - 4 build pbi visuals and report">
+      <data key="d0">File</data>
+      <data key="d1">Index - 4 build pbi visuals and report</data>
+    </node>
+    <node id="Index - 5 Manage workspaces and datasets in Power BI">
+      <data key="d0">File</data>
+      <data key="d1">Index - 5 Manage workspaces and datasets in Power BI</data>
+    </node>
+    <node id="Index - X use DAX in PBI.md" />
+    <node id="1 discover da">
+      <data key="d0">File</data>
+      <data key="d1">1 discover da</data>
+    </node>
+    <node id="2 get started with pbi">
+      <data key="d0">File</data>
+      <data key="d1">2 get started with pbi</data>
+    </node>
+    <node id="3 create interactive report with copilot">
+      <data key="d0">File</data>
+      <data key="d1">3 create interactive report with copilot</data>
+    </node>
+    <node id="1 discover da.md" />
+    <node id="2 get started with pbi.md" />
+    <node id="3 create interactive report with copilot.md" />
+    <node id="1. get data in power bi">
+      <data key="d0">File</data>
+      <data key="d1">1. get data in power bi</data>
+    </node>
+    <node id="2. Clean, transform, and load data in Power BI">
+      <data key="d0">File</data>
+      <data key="d1">2. Clean, transform, and load data in Power BI</data>
+    </node>
+    <node id="1. get data in power bi.md" />
+    <node id="2. Clean, transform, and load data in Power BI.md" />
+    <node id="1. describe model">
+      <data key="d0">File</data>
+      <data key="d1">1. describe model</data>
+    </node>
+    <node id="2. choose a pbi model framework">
+      <data key="d0">File</data>
+      <data key="d1">2. choose a pbi model framework</data>
+    </node>
+    <node id="3. design semantic model">
+      <data key="d0">File</data>
+      <data key="d1">3. design semantic model</data>
+    </node>
+    <node id="date">
+      <data key="d0">Tag</data>
+      <data key="d1">3. design semantic model</data>
+    </node>
+    <node id="duration">
+      <data key="d0">Tag</data>
+      <data key="d1">3. design semantic model</data>
+    </node>
+    <node id="4. dax for model">
+      <data key="d0">File</data>
+      <data key="d1">4. dax for model</data>
+    </node>
+    <node id="5. add measure to model">
+      <data key="d0">File</data>
+      <data key="d1">5. add measure to model</data>
+    </node>
+    <node id="6. Add calculated tables and columns to pbi">
+      <data key="d0">File</data>
+      <data key="d1">6. Add calculated tables and columns to pbi</data>
+    </node>
+    <node id="7. dax time intelligence">
+      <data key="d0">File</data>
+      <data key="d1">7. dax time intelligence</data>
+    </node>
+    <node id="8. optimizing model in pbi">
+      <data key="d0">File</data>
+      <data key="d1">8. optimizing model in pbi</data>
+    </node>
+    <node id="9. model security">
+      <data key="d0">File</data>
+      <data key="d1">9. model security</data>
+    </node>
+    <node id="1. describe model.md" />
+    <node id="2. choose a pbi model framework.md" />
+    <node id="3. design semantic model.md" />
+    <node id="4. dax for model.md" />
+    <node id="5. add measure to model.md" />
+    <node id="6. Add calculated tables and columns to pbi.md" />
+    <node id="7. dax time intelligence.md" />
+    <node id="8. optimizing model in pbi.md" />
+    <node id="9. model security.md" />
+    <node id="1. scope report design requirements">
+      <data key="d0">File</data>
+      <data key="d1">1. scope report design requirements</data>
+    </node>
+    <node id="2. design pbi report">
+      <data key="d0">File</data>
+      <data key="d1">2. design pbi report</data>
+    </node>
+    <node id="3. create visual calc in pbi">
+      <data key="d0">File</data>
+      <data key="d1">3. create visual calc in pbi</data>
+    </node>
+    <node id="4. config report filter">
+      <data key="d0">File</data>
+      <data key="d1">4. config report filter</data>
+    </node>
+    <node id="5. Enhance Power BI report designs for the user experience">
+      <data key="d0">File</data>
+      <data key="d1">5. Enhance Power BI report designs for the user experience</data>
+    </node>
+    <node id="6. Perform analytics in power bi">
+      <data key="d0">File</data>
+      <data key="d1">6. Perform analytics in power bi</data>
+    </node>
+    <node id="1. scope report design requirements.md" />
+    <node id="2. design pbi report.md" />
+    <node id="3. create visual calc in pbi.md" />
+    <node id="4. config report filter.md" />
+    <node id="5. Enhance Power BI report designs for the user experience.md" />
+    <node id="6. Perform analytics in power bi.md" />
+    <node id="1. Create and manage workspaces in Power BI">
+      <data key="d0">File</data>
+      <data key="d1">1. Create and manage workspaces in Power BI</data>
+    </node>
+    <node id="2. manage semantic models in pbi">
+      <data key="d0">File</data>
+      <data key="d1">2. manage semantic models in pbi</data>
+    </node>
+    <node id="3. create dashboards in power bi">
+      <data key="d0">File</data>
+      <data key="d1">3. create dashboards in power bi</data>
+    </node>
+    <node id="4. row level security">
+      <data key="d0">File</data>
+      <data key="d1">4. row level security</data>
+    </node>
+    <node id="1. Create and manage workspaces in Power BI.md" />
+    <node id="2. manage semantic models in pbi.md" />
+    <node id="3. create dashboards in power bi.md" />
+    <node id="4. row level security.md" />
+    <node id="1. describe pbi model">
+      <data key="d0">File</data>
+      <data key="d1">1. describe pbi model</data>
+    </node>
+    <node id="2. Write DAX formulas for Power BI Desktop models ">
+      <data key="d0">File</data>
+      <data key="d1">2. Write DAX formulas for Power BI Desktop models </data>
+    </node>
+    <node id="3. Add calculated tables and columns to Power BI Desktop models ">
+      <data key="d0">File</data>
+      <data key="d1">3. Add calculated tables and columns to Power BI Desktop models </data>
+    </node>
+    <node id="4. Add measures to Power BI Desktop models ">
+      <data key="d0">File</data>
+      <data key="d1">4. Add measures to Power BI Desktop models </data>
+    </node>
+    <node id="5. Use DAX iterator functions in Power BI Desktop models ">
+      <data key="d0">File</data>
+      <data key="d1">5. Use DAX iterator functions in Power BI Desktop models </data>
+    </node>
+    <node id="6. Modify DAX filter context in Power BI Desktop models ">
+      <data key="d0">File</data>
+      <data key="d1">6. Modify DAX filter context in Power BI Desktop models </data>
+    </node>
+    <node id="7. Use DAX time intelligence functions in Power BI Desktop models ">
+      <data key="d0">File</data>
+      <data key="d1">7. Use DAX time intelligence functions in Power BI Desktop models </data>
+    </node>
+    <node id="Index - X use DAX in PBI">
+      <data key="d0">File</data>
+      <data key="d1">Index - X use DAX in PBI</data>
+    </node>
+    <node id="1. describe pbi model.md" />
+    <node id="2. Write DAX formulas for Power BI Desktop models .md" />
+    <node id="3. Add calculated tables and columns to Power BI Desktop models .md" />
+    <node id="4. Add measures to Power BI Desktop models .md" />
+    <node id="5. Use DAX iterator functions in Power BI Desktop models .md" />
+    <node id="6. Modify DAX filter context in Power BI Desktop models .md" />
+    <node id="7. Use DAX time intelligence functions in Power BI Desktop models .md" />
+    <node id="discussioncomment">
+      <data key="d0">Tag</data>
+      <data key="d1">Making Packages</data>
+    </node>
+    <node id="indygreg">
+      <data key="d0">Tag</data>
+      <data key="d1">Making Packages</data>
+    </node>
+    <node id="publishing">
+      <data key="d0">Tag</data>
+      <data key="d1">Publishing Packages Methods</data>
+    </node>
+    <node id="enable TOC and File Explorer for quartz mobile">
+      <data key="d0">File</data>
+      <data key="d1">enable TOC and File Explorer for quartz mobile</data>
     </node>
     <edge source="index" target="statistical">
-      <data key="d1">Tagged</data>
+      <data key="d2">Tagged</data>
     </edge>
     <edge source="index" target="data">
-      <data key="d1">Tagged</data>
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="Reading_List" target="Terraform" />
-    <edge source="Reading_List" target="k8s">
-      <data key="d1">Tagged</data>
+    <edge source="Reading List" target="Terraform" />
+    <edge source="Reading List" target="k8s">
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="Reading_List" target="simulated">
-      <data key="d1">Tagged</data>
+    <edge source="Reading List" target="simulated">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Terraform" target="DevOps" />
+    <edge source="Terraform" target="Diagrams as Code.md" />
+    <edge source="Terraform" target="aws">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Terraform" target="what">
+      <data key="d2">Tagged</data>
     </edge>
     <edge source="ideas" target="project">
-      <data key="d1">Tagged</data>
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="AWS_Networking" target="TODO">
-      <data key="d1">Tagged</data>
+    <edge source="AWS Networking" target="TODO">
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="AWS_Networking" target="NAT">
-      <data key="d1">Tagged</data>
+    <edge source="AWS Networking" target="NAT">
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="BI__EDA_Solutions" target="Dash">
-      <data key="d1">Tagged</data>
+    <edge source="BI &amp; EDA Solutions" target="Dash">
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="BI__EDA_Solutions" target="metabase">
-      <data key="d1">Tagged</data>
+    <edge source="BI &amp; EDA Solutions" target="metabase">
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="BI__EDA_Solutions" target="docker">
-      <data key="d1">Tagged</data>
+    <edge source="BI &amp; EDA Solutions" target="docker">
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="BI__EDA_Solutions" target="jar">
-      <data key="d1">Tagged</data>
+    <edge source="BI &amp; EDA Solutions" target="jar">
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="BI__EDA_Solutions" target="apache">
-      <data key="d1">Tagged</data>
+    <edge source="BI &amp; EDA Solutions" target="apache">
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="BI__EDA_Solutions" target="k8s">
-      <data key="d1">Tagged</data>
+    <edge source="BI &amp; EDA Solutions" target="k8s">
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="BI__EDA_Solutions" target="grafana">
-      <data key="d1">Tagged</data>
+    <edge source="BI &amp; EDA Solutions" target="grafana">
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="BI__EDA_Solutions" target="KanariesPyGWalker">
-      <data key="d1">Tagged</data>
+    <edge source="BI &amp; EDA Solutions" target="KanariesPyGWalker">
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="BI__EDA_Solutions" target="plotly">
-      <data key="d1">Tagged</data>
+    <edge source="BI &amp; EDA Solutions" target="plotly">
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="BI__EDA_Solutions" target="dbt">
-      <data key="d1">Tagged</data>
+    <edge source="BI &amp; EDA Solutions" target="dbt">
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="BI__EDA_Solutions" target="bokeh">
-      <data key="d1">Tagged</data>
+    <edge source="BI &amp; EDA Solutions" target="bokeh">
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="BI__EDA_Solutions" target="streamlit">
-      <data key="d1">Tagged</data>
+    <edge source="BI &amp; EDA Solutions" target="streamlit">
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="BI__EDA_Solutions" target="Qlik">
-      <data key="d1">Tagged</data>
+    <edge source="BI &amp; EDA Solutions" target="Qlik">
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="BI__EDA_Solutions" target="tableau">
-      <data key="d1">Tagged</data>
+    <edge source="BI &amp; EDA Solutions" target="tableau">
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="BI__EDA_Solutions" target="powerbi">
-      <data key="d1">Tagged</data>
+    <edge source="BI &amp; EDA Solutions" target="powerbi">
+      <data key="d2">Tagged</data>
     </edge>
     <edge source="Dash" target="redis">
-      <data key="d1">Tagged</data>
+      <data key="d2">Tagged</data>
     </edge>
     <edge source="Dash" target="flask">
-      <data key="d1">Tagged</data>
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="General_Plot_knowledge" target="plotly">
-      <data key="d1">Tagged</data>
+    <edge source="General Plot knowledge" target="plotly">
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="General_Plot_knowledge" target="powerbi">
-      <data key="d1">Tagged</data>
+    <edge source="General Plot knowledge" target="powerbi">
+      <data key="d2">Tagged</data>
     </edge>
-    <edge source="General_Plot_knowledge" target="pandas">
-      <data key="d1">Tagged</data>
+    <edge source="General Plot knowledge" target="pandas">
+      <data key="d2">Tagged</data>
     </edge>
     <edge source="certifications" target="aws">
-      <data key="d1">Tagged</data>
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Data Engineering Code Design Patterns" target="idempotence">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Data Engineering Code Design Patterns" target="determinism">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Data Engineering Code Design Patterns" target="idempotent">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Data Engineering Code Design Patterns" target="atomic">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Data Engineering Code Design Patterns" target="singleton">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Data Engineering Code Design Patterns" target="pyspark">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Data Engineering Code Design Patterns" target="factory">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Data Engineering Code Design Patterns" target="data">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Data Processing Library Comparison" target="Polars" />
+    <edge source="Data Processing Library Comparison" target="sklearn" />
+    <edge source="Data Processing Library Comparison" target="duckdb">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Data Processing Library Comparison" target="pandas">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Data Processing Library Comparison" target="ray">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Data Processing Library Comparison" target="dask">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Data Processing Library Comparison" target="pyspark">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Data Processing Library Comparison" target="narwhals">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Data Processing Library Comparison" target="ibis">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Polars" target="pivot">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="sklearn" target="Sklearn Pipeline Notes" />
+    <edge source="sklearn" target="sklego">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="sklearn" target="narwhals">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="sklearn" />
+    <edge source="MLOps" target="Terraform" />
+    <edge source="MLOps" target="CICD" />
+    <edge source="MLOps" target="dbt">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="feast">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="teradata">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="spark">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="kafka">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="pulsar">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="api">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="warehouse">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="postgresql">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="sqlmesh">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="datahub">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="amundsen">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="OpenMetadata">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="xgboost">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="ray">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="mlflow">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="kubeflow">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="airflow">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="argoflow">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="github">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="gitlab">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="jenkins">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="apache">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="metabase">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="redash">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="plotly">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="prometheus">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="grafana">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="MLOps" target="databricks">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="CICD" target="DevOps" />
+    <edge source="CICD" target="Makefile">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Python Container Image Size Comparison" target="aws">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Python Container Image Size Comparison" target="docker">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Python Container Image Size Comparison" target="alpine">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="unsupervised learning" target="umap">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="DevOps" target="MLOps" />
+    <edge source="DevOps" target="Terraform" />
+    <edge source="DevOps" target="data">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="DevOps" target="powerbi">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="DevOps" target="docker">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="DevOps" target="k8s">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="DevOps" target="airflow">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="DevOps" target="prometheus">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="DevOps" target="grafana">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="DevOps" target="jenkins">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Crossplane" target="DevOps" />
+    <edge source="Crossplane" target="k8s">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="A list of potential improvements from a recent projects at work" target="Sklearn Pipeline Notes" />
+    <edge source="A list of potential improvements from a recent projects at work" target="auto experiment and output" />
+    <edge source="Sklearn Pipeline Notes" target="mlflow">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Sklearn Pipeline Notes" target="joblib">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Sklearn Pipeline Notes" target="dask">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Sklearn Pipeline Notes" target="ray">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Sklearn Pipeline Notes" target="pyspark">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Sklearn Pipeline Notes" target="diagram">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Sklearn Pipeline Notes" target="model">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="auto experiment and output" target="kubeflow">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="auto experiment and output" target="mlflow">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Code as Diagram - Flowchart" target="code2flow">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Diagrams as Code" target="Terraform" />
+    <edge source="Diagrams as Code" target="markdown">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Diagrams as Code" target="install">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Diagrams as Code" target="issuecomment">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Diagrams as Code" target="Obsidian">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Infrastructure as diagram" target="Terraform" />
+    <edge source="Markdown Usage Notes" target="github">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Markdown Usage Notes" target="Obsidian">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Markdown Usage Notes" target="admonitions">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Markdown Usage Notes" target="blockquotes">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Markdown Usage Notes" target="alerts">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Markdown Usage Notes" target="quartz">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="refactoring old personal budgeting code" target="Making Packages" />
+    <edge source="Making Packages" target="discussioncomment">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Making Packages" target="indygreg">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="question to ask" target="Pasted image 20250506154227.png" />
+    <edge source="Router cant change DNS issue" target="WSL ip pinging issues.md" />
+    <edge source="Router cant change DNS issue" target="NAT">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Router cant change DNS issue" target="wslconfig">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Router shopping" target="NAT">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="What can ISP see or control" target="Router cant change DNS issue" />
+    <edge source="WSL ip pinging issues" target="Pasted image 20250226005602.png" />
+    <edge source="WSL ip pinging issues" target="Pasted image 20250226232416.png" />
+    <edge source="WSL ip pinging issues" target="issuecomment">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="auto eda" target="KanariesPyGWalker">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="how to analyze duckdb query in jupyter notebook" target="jupyter" />
+    <edge source="jupyter" target="markdown">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Python General Development Tools Index" target="Environment Manager" />
+    <edge source="Python General Development Tools Index" target="Making Packages" />
+    <edge source="Python General Development Tools Index" target="Testing Packages" />
+    <edge source="Python General Development Tools Index" target="Publishing Packages Methods" />
+    <edge source="Python General Development Tools Index" target="Diagrams as Code" />
+    <edge source="Python General Development Tools Index" target="Documenting package" />
+    <edge source="Publishing Packages Methods" target="publishing">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Documenting package" target="code2flow">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Personal Display requirements" target="single cable" />
+    <edge source="Personal Display requirements" target="sp">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Personal File Storage" target="Obsidian">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="TODOS" target="Logseq">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="TODOS" target="Obsidian">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="TODOS" target="foam">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="TODOS" target="dataview">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="TODOS" target="templater">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Markdown in webapps" target="markdown">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Combining Obsidian and Foam" target="Obsidian">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Combining Obsidian and Foam" target="foam">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Combining Obsidian and Foam" target="logseq">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Combining Obsidian and Foam" target="quartz">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Combining Obsidian and Foam" target="dataview">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Combining Obsidian and Foam" target="templater">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Combining Obsidian and Foam" target="excalidraw">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Note Taking Reflections" target="Markdown Usage Notes" />
+    <edge source="VSCode" target="vscodium">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="VSCode" />
+    <edge source="ZettelKasten Options" target="markdown">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="dataview">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="templater">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="excalidraw">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="Obsidian">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="quartz">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="Logseq">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="logseq">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="vscodium">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="foam">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="loam">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="dendron">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="Joplin">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="tana">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="Quartz">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="Jekyll">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="Hugo">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="Astro">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="Eleventy">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="Mkdocs">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="ZettelKasten Options" target="project">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="DAX vs MDX" target="powerbi">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Rants About Power BI and How Superset Compares" target="sqlmesh">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Rants About Power BI and How Superset Compares" target="datahub">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Rants About Power BI and How Superset Compares" target="compare">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Rants About Power BI and How Superset Compares" target="23362">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Rants About Power BI and How Superset Compares" target="14688">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="Index - Microsoft Learn (pbi)" target="Index - 1 get started with da" />
+    <edge source="Index - Microsoft Learn (pbi)" target="Index - 2 prepare data for analysis" />
+    <edge source="Index - Microsoft Learn (pbi)" target="Index - 3 Model data with pbi" />
+    <edge source="Index - Microsoft Learn (pbi)" target="Index - 4 build pbi visuals and report" />
+    <edge source="Index - Microsoft Learn (pbi)" target="Index - 5 Manage workspaces and datasets in Power BI" />
+    <edge source="Index - Microsoft Learn (pbi)" target="Index - X use DAX in PBI.md" />
+    <edge source="Index - 1 get started with da" target="1 discover da.md" />
+    <edge source="Index - 1 get started with da" target="2 get started with pbi.md" />
+    <edge source="Index - 1 get started with da" target="3 create interactive report with copilot.md" />
+    <edge source="Index - 2 prepare data for analysis" target="1. get data in power bi.md" />
+    <edge source="Index - 2 prepare data for analysis" target="2. Clean, transform, and load data in Power BI.md" />
+    <edge source="Index - 3 Model data with pbi" target="1. describe model.md" />
+    <edge source="Index - 3 Model data with pbi" target="2. choose a pbi model framework.md" />
+    <edge source="Index - 3 Model data with pbi" target="3. design semantic model.md" />
+    <edge source="Index - 3 Model data with pbi" target="4. dax for model.md" />
+    <edge source="Index - 3 Model data with pbi" target="5. add measure to model.md" />
+    <edge source="Index - 3 Model data with pbi" target="6. Add calculated tables and columns to pbi.md" />
+    <edge source="Index - 3 Model data with pbi" target="7. dax time intelligence.md" />
+    <edge source="Index - 3 Model data with pbi" target="8. optimizing model in pbi.md" />
+    <edge source="Index - 3 Model data with pbi" target="9. model security.md" />
+    <edge source="Index - 4 build pbi visuals and report" target="1. scope report design requirements.md" />
+    <edge source="Index - 4 build pbi visuals and report" target="2. design pbi report.md" />
+    <edge source="Index - 4 build pbi visuals and report" target="3. create visual calc in pbi.md" />
+    <edge source="Index - 4 build pbi visuals and report" target="4. config report filter.md" />
+    <edge source="Index - 4 build pbi visuals and report" target="5. Enhance Power BI report designs for the user experience.md" />
+    <edge source="Index - 4 build pbi visuals and report" target="6. Perform analytics in power bi.md" />
+    <edge source="Index - 5 Manage workspaces and datasets in Power BI" target="1. Create and manage workspaces in Power BI.md" />
+    <edge source="Index - 5 Manage workspaces and datasets in Power BI" target="2. manage semantic models in pbi.md" />
+    <edge source="Index - 5 Manage workspaces and datasets in Power BI" target="3. create dashboards in power bi.md" />
+    <edge source="Index - 5 Manage workspaces and datasets in Power BI" target="4. row level security.md" />
+    <edge source="3. design semantic model" target="date">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="3. design semantic model" target="duration">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="1. describe pbi model" target="1. describe model.md" />
+    <edge source="2. Write DAX formulas for Power BI Desktop models " target="4. dax for model.md" />
+    <edge source="3. Add calculated tables and columns to Power BI Desktop models " target="6. Add calculated tables and columns to pbi.md" />
+    <edge source="4. Add measures to Power BI Desktop models " target="5. add measure to model.md" />
+    <edge source="5. Use DAX iterator functions in Power BI Desktop models " target="TODO">
+      <data key="d2">Tagged</data>
+    </edge>
+    <edge source="7. Use DAX time intelligence functions in Power BI Desktop models " target="7. dax time intelligence.md" />
+    <edge source="Index - X use DAX in PBI" target="1. describe pbi model.md" />
+    <edge source="Index - X use DAX in PBI" target="2. Write DAX formulas for Power BI Desktop models .md" />
+    <edge source="Index - X use DAX in PBI" target="3. Add calculated tables and columns to Power BI Desktop models .md" />
+    <edge source="Index - X use DAX in PBI" target="4. Add measures to Power BI Desktop models .md" />
+    <edge source="Index - X use DAX in PBI" target="5. Use DAX iterator functions in Power BI Desktop models .md" />
+    <edge source="Index - X use DAX in PBI" target="6. Modify DAX filter context in Power BI Desktop models .md" />
+    <edge source="Index - X use DAX in PBI" target="7. Use DAX time intelligence functions in Power BI Desktop models .md" />
+    <edge source="enable TOC and File Explorer for quartz mobile" target="quartz">
+      <data key="d2">Tagged</data>
     </edge>
   </graph>
 </graphml>
