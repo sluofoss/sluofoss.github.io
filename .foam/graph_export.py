@@ -9,7 +9,8 @@ def _extract_wikilinks(text) -> list[str]:
 def _extract_hashtags(text) -> list[str]:
     # hash with more than two chars
     return re.findall(r"#(\w{2,})", text)
-
+# can be visualized with https://gephi.org/gephi-lite/
+#   yEd does not work
 g = nx.DiGraph()
 for file in files:
     fname_slug = file.stem
