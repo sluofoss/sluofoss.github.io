@@ -110,6 +110,33 @@ https://www.anker.com/blogs/hubs-and-docks/how-to-daisy-chain-monitors-with-disp
     GPU: Your laptop or graphics card must have a DisplayPort 1.2 (or newer) output that specifically lists MST support.
     Monitors: Every screen in the chain needs a DisplayPort 1.2+ input, and any monitor that comes before the last one in the chain also needs a DisplayPort output (usually labeled "DP Out") to pass the signal along. The last one can be an input-only model.
 
+    > Thunderbolt 4 host systems are guaranteed to support VESA DP Alt Mode and USB 3.2 Gen 2 as "fallback" modes. 
+    > https://www.reddit.com/r/UsbCHardware/comments/r0o3bu/comment/hlu8avv/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+
+
+> Apple does not support MST. The DP feature that allows running multiple displays via a single DP connection. The rest of the world does.
+> Your monitor uses a TB-Hub not a MST-Hub. So the 2nd DP connection can only be available from a TB/USB4 host that offers 2 DP connections. So without TB/USB4 host, you are out of luck.
+> Most monitors will have an MST-Hub not a TB Hub (they will then call it a DP-output). And those would not work for Apple hosts, because Apple boycotts MST.
+> (note that both technologies are actually based on Hub-topology nowadays. "daisy-chaining" just describes the way you want to wire your peripherals "in a chain". Which you can do, but neither technology is actually limited to)
+> https://www.reddit.com/r/UsbCHardware/comments/1cb5qf1/comment/l0x3i7e/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+
+## tables from copilot gpt 4.1
+| Standard         | Max Speed     | Connector Type   | Power Delivery (PD) Max | PD Voltage/Ampere Pairs              | Backward Compatibility Details                                                                                  | Daisy Chaining Support                | MST (Multi-Stream Transport) Support         | Min Video Output      | Release Year |
+|------------------|---------------|------------------|------------------------|--------------------------------------|----------------------------------------------------------------------------------------------------------------|---------------------------------------|----------------------------------------------|-----------------------|--------------|
+| **USB 3.1**      | 10 Gbps       | USB-A, USB-C     | 100W                   | 5V/2A, 12V/1.5A, 20V/5A              | USB 2.0/1.1 devices and ports (same connector)                                                                 | No                                    | No                                           | N/A                   | 2013         |
+| **USB 3.2**      | 20 Gbps       | USB-A, USB-C     | 100W                   | 5V/2A, 12V/1.5A, 20V/5A              | USB 2.0/3.0/3.1 devices and ports (same connector)                                                             | No                                    | No                                           | N/A                   | 2017         |
+| **USB 4**        | 40 Gbps       | USB-C            | 100W                   | 5V/2A, 9V/3A, 15V/3A, 20V/5A         | USB 3.x, USB 2.0, Thunderbolt 3 (if host supports TB3 fallback)                                                | No (USB only, but supports MST via DP)| Yes, via DP Alt Mode over USB-C              | 1x 4K                 | 2019         |
+| **Thunderbolt 3**| 40 Gbps       | USB-C            | 100W                   | 5V/3A, 9V/3A, 15V/3A, 20V/5A         | USB 3.x, USB 2.0, DisplayPort (via adapters)                                                                   | Yes, up to 6 devices per port         | Yes, via DP 1.2/1.4 passthrough              | 1x 4K                 | 2015         |
+| **Thunderbolt 4**| 40 Gbps       | USB-C            | 100W                   | 5V/3A, 9V/3A, 15V/3A, 20V/5A         | Thunderbolt 3, USB 4, USB 3.x, USB 2.0, DisplayPort (via adapters)                                             | Yes, up to 6 devices per port         | Yes, via DP 1.4a passthrough                 | 2x 4K                 | 2020         |
+| **Thunderbolt 5**| 80/120 Gbps   | USB-C            | 240W                   | 5V/3A, 9V/3A, 15V/3A, 20V/5A, 48V/5A | Thunderbolt 4/3, USB 4, USB 3.x, USB 2.0, DisplayPort (via adapters)                                           | Yes, up to 6 devices per port         | Yes, via DP 2.1 passthrough                  | 2x 8K                 | 2023         |
+
+
+
+| Scenario                                 | Supported? | Notes                                                        |
+|-------------------------------------------|------------|--------------------------------------------------------------|
+| Connect single USB 3.2 monitor to TB4/5   | Yes        | Use USB-C cable; monitor must support DP Alt Mode            |
+| Daisy chain via Thunderbolt protocol      | No         | Only Thunderbolt devices can be in a Thunderbolt daisy chain |
+| Daisy chain via DisplayPort MST           | Yes        | If laptop and monitors support DP MST, daisy chaining is possible |
 # information on Thunderbolt 4 and usb4
 https://www.reddit.com/r/UsbCHardware/comments/nd9yjz/what_happens_if_you_connect_a_thunderbolt_3_dock/
 
