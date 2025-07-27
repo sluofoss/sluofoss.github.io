@@ -153,6 +153,10 @@ https://www.reddit.com/r/UsbCHardware/comments/nd9yjz/what_happens_if_you_connec
 
 
 # options
+use 
+- https://www.displayninja.com/kvm-switch-monitor-list/
+- scorptec kvm/thunderbolt/daisy chain monitor
+as starting point to find monitor
 ## option 0 simplified
 - new to buy:
   - monitor1 ($500-$700) # if we consider the monitor upgrade (aka giving away the existing monitor ($80~$100)) then the cost comes down to $400 to $600 with benefit of set up simplicity.

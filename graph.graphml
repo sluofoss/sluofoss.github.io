@@ -1,0 +1,225 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d1" for="edge" attr.name="__labels__" attr.type="string" />
+  <key id="d0" for="node" attr.name="__labels__" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="All_Notes_Index">
+      <data key="d0">File</data>
+    </node>
+    <node id="default_index">
+      <data key="d0">File</data>
+    </node>
+    <node id="index">
+      <data key="d0">File</data>
+    </node>
+    <node id="statistical">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="data">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="Reading_List">
+      <data key="d0">File</data>
+    </node>
+    <node id="Terraform" />
+    <node id="k8s">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="simulated">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="Trash_Talking_Microsoft">
+      <data key="d0">File</data>
+    </node>
+    <node id="property_data_information_resources">
+      <data key="d0">File</data>
+    </node>
+    <node id="Holiday_Destination_Flight_Recommendation_and_EDA">
+      <data key="d0">File</data>
+    </node>
+    <node id="ideas">
+      <data key="d0">File</data>
+    </node>
+    <node id="project">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="framework">
+      <data key="d0">File</data>
+    </node>
+    <node id="AWS_Account_Management">
+      <data key="d0">File</data>
+    </node>
+    <node id="AWS_Networking">
+      <data key="d0">File</data>
+    </node>
+    <node id="TODO">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="NAT">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="Cost_estimation_to_run_frequently_scheduled_job">
+      <data key="d0">File</data>
+    </node>
+    <node id="Cloud_Comparison">
+      <data key="d0">File</data>
+    </node>
+    <node id="BI__EDA_Solutions">
+      <data key="d0">File</data>
+    </node>
+    <node id="Dash">
+      <data key="d0">File</data>
+    </node>
+    <node id="metabase">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="docker">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="jar">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="apache">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="grafana">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="KanariesPyGWalker">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="plotly">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="dbt">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="bokeh">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="streamlit">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="Qlik">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="tableau">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="powerbi">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="redis">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="flask">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="General_Plot_knowledge">
+      <data key="d0">File</data>
+    </node>
+    <node id="pandas">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="Power_BI_PL300_cert_prep">
+      <data key="d0">File</data>
+    </node>
+    <node id="teradata_table_profiler_draft">
+      <data key="d0">File</data>
+    </node>
+    <node id="certifications">
+      <data key="d0">File</data>
+    </node>
+    <node id="aws">
+      <data key="d0">Tag</data>
+    </node>
+    <node id="Cloud_Storage_in_Data_Engineering">
+      <data key="d0">File</data>
+    </node>
+    <edge source="index" target="statistical">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="index" target="data">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="Reading_List" target="Terraform" />
+    <edge source="Reading_List" target="k8s">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="Reading_List" target="simulated">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="ideas" target="project">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="AWS_Networking" target="TODO">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="AWS_Networking" target="NAT">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="BI__EDA_Solutions" target="Dash">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="BI__EDA_Solutions" target="metabase">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="BI__EDA_Solutions" target="docker">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="BI__EDA_Solutions" target="jar">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="BI__EDA_Solutions" target="apache">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="BI__EDA_Solutions" target="k8s">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="BI__EDA_Solutions" target="grafana">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="BI__EDA_Solutions" target="KanariesPyGWalker">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="BI__EDA_Solutions" target="plotly">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="BI__EDA_Solutions" target="dbt">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="BI__EDA_Solutions" target="bokeh">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="BI__EDA_Solutions" target="streamlit">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="BI__EDA_Solutions" target="Qlik">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="BI__EDA_Solutions" target="tableau">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="BI__EDA_Solutions" target="powerbi">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="Dash" target="redis">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="Dash" target="flask">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="General_Plot_knowledge" target="plotly">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="General_Plot_knowledge" target="powerbi">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="General_Plot_knowledge" target="pandas">
+      <data key="d1">Tagged</data>
+    </edge>
+    <edge source="certifications" target="aws">
+      <data key="d1">Tagged</data>
+    </edge>
+  </graph>
+</graphml>
