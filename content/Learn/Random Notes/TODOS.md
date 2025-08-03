@@ -14,6 +14,8 @@ updated: 2025-03-02T22:17
 	- [x] forward to personal email
 	- [ ] send using custom domain using sendgrid (?)
 	- [ ] send using alias in gmail (?) (require smtp configs)
+	- https://www.reddit.com/r/CloudFlare/comments/1ky5ww4/cloudflare_email_routing_gmail_now_moving_all/
+	- https://postmaster.google.com/u/0/managedomains?pli=1
 	- https://www.reddit.com/r/selfhosted/comments/13p993z/cloudflare_email_forwarding/
 	- https://gist.github.com/irazasyed/a5ca450f1b1b8a01e092b74866e9b2f1
 ❌ explore #Logseq after December, maybe performance ready and could be self hosted. 
