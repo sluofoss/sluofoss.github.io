@@ -14,6 +14,9 @@ updated: 2025-03-02T22:17
 	- [x] forward to personal email
 	- [ ] send using custom domain using sendgrid (?)
 	- [ ] send using alias in gmail (?) (require smtp configs)
+    	- https://community.cloudflare.com/t/solved-how-to-use-gmail-smtp-to-send-from-an-email-address-which-uses-cloudflare-email-routing/382769 
+    	- https://improvmx.com/guides/send-emails-using-gmail
+    	- https://jhart99.com/cloudflare-outbound-email/#outbound-email
 	- https://www.reddit.com/r/CloudFlare/comments/1ky5ww4/cloudflare_email_routing_gmail_now_moving_all/
 	- https://postmaster.google.com/u/0/managedomains?pli=1
 	- https://www.reddit.com/r/selfhosted/comments/13p993z/cloudflare_email_forwarding/

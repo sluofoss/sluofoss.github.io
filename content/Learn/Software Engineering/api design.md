@@ -343,3 +343,96 @@ payload
 experia
     error
     entity
+Instead of sending back different HTTP status codes in responses, one can always send back a `200` code with a fixed `envelope` based approach. The response has a field that provides information on the errors.
+
+# handling changes
+## handling change
+    - breaking changes vs non breaking changes
+      - non breaking changes
+        - add new resource operation
+        - add optional parameter to resource
+      - breaking
+        - change the http verb or method
+        - delete an operation
+          - aka, deleting get vacation_by_dest and replacing it with generic search
+    - backend changes can be either breaking or non breaking, it depends on specific scenario and no hard rules
+      - can be major or minor
+    - avoid changes: is it adding value
+      - eliminate or minimize impact on app dev
+      - provide planning opp to the app dev
+      - support backward compatibility
+      - provide support to app dev with changes
+      - minimize change freq: once per 6 months e.g.
+    - best practices to handling changes
+## versioning
+how to:
+   use custom header
+   use query parameter
+   use url path parameter
+
+version format:
+    date
+    major.minor
+    number
+
+example
+- twilio:
+date, url path param
+
+- aws:
+query parameter, date
+
+- the movie db:
+url path, number
+
+- uber:
+url path, v{number}
+
+- stripe:
+major version:
+url path, v{number}
+minor version:
+http header, date
+
+multiple version support key points
+- support at least 1 pre3vious verison for a period fo time
+    - e.g. 3 months
+- mark the previou version as deprecated
+    - no new dev can request access to the old api
+- publish roll out plan in advance
+- manage changelog that clearly shows the reason for new version
+
+
+# cache control patterns
+## cache control concepts and design
+why cache:
+- improve performance
+- higher scalability /throughput
+
+what to cache:
+- speed of change 
+- time sensitivity
+- security
+
+design decison
+which component should control the caching
+    - answer is api will control the caching
+what to cache? who can cache (which components in the data flow)?
+how long is the cache valid
+
+## cache control directives
+rfc 2616
+public vs private - private:
+    sensitive should not be cached on intermediary
+    private data is meant for single user
+no-store: not allow storage at any intermediary
+etag- header can be used to check fi the data has changed
+
+for high volume api, 
+consider no-store and private for snesitive 
+use etag for large responses
+carefully decide on the optimal max-age
+
+user end http override api cache directive header
+
+ccd by default is public
