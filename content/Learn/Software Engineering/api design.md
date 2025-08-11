@@ -448,3 +448,103 @@ ccd by default is public
   - query parameters only and ommit
     e.g. meetup
 field projects vs filters
+
+## pagination
+
+### why support it 
+- consumer in control of response 
+- asks for number of rows
+- similar to partial responses, optimise resource usage
+  - cpu memory bandwidth
+  - common api version for all consumers
+  - e.g. to support multiple devices, use cases - form factors
+### 3 common patterns
+cursor based - facebook 
+    envelope based response
+    before after (the 1st record b4 (last rec prev page), and the 1st record after (first rec next page)) 
+    previous next (the previous page and the next page)
+    most efficient method
+offset based - linkedin
+    most common
+    offset and limit
+
+use of http header - github
+    rfc5988
+    have link for next and last in header
+
+# security
+## intro
+    - data theft
+    - data manipulation
+    - identity theft
+    - dos attack
+    - who is the caller of api
+    - transaction authorized
+    - secure data
+- data security: protection and integrity
+- data at rest is outside scope of rest api
+- data in motion is in scope of rest api
+  - dont use self signed certs
+  - tls
+  - https
+
+3 areas: authentication, authorization, functional attacks
+
+## basic authentication
+http header authorization: Basic {base 64 encoded user:password}
+
+this cant work with http but only https/tls, because http does plain text
+
+sessions is not allowed in rest api, because it is stateful
+
+when you build local app (mobile) the basic auth means that the app stores the credentials to the api, meaning its not secure
+
+requires requester to pass credentials with every request, because one should not manage sessions in rest api
+npm passport.js for node.js
+
+## token and jwt
+token: encrypted strings
+```mermaid
+flowchart
+A[Client] -->|Request Token| B[Authorization Server]
+B -->|Issue Token| A[Client]
+A[Client] -->|Use Token| C[Resource Server]
+B -->|Request Token| C[Resource Server]
+```
+jwt (json web tokens) have 3 parts
+header (base64) . payload (base64) . signature (hashing of header + payload with secret)
+
+
+header {
+  "alg": "HS256",
+  "typ": "JWT"
+}
+
+payload: 
+    - registered claims
+        - iss: issuer
+        - exp: expiration time
+        - nbf: not before
+    - public claims
+      - name
+      - email 
+      - phone (whatever that identity the user)
+    - private claims
+      - agreed between consumer and provider
+rfc7519
+
+token may be set to expire, may be revoked
+
+token may be send by consumer in header/body/query parameter/cookie depending on api implementation
+## api key and secret
+
+Both API key and JWT can provide authentication and authorization. API key is on project scope and JWT is on user scope.
+
+API keys are considered to be vulnerable to man-in-the-middle attacks, so not as secure as authentication tokens (refer to Google Cloud API key doc).
+
+Example use case for API keys is using Endpoints features such as quotas. Each request must pass in an API key so that Endpoints can identify the project that the client application is associated with.
+
+https://softwareengineering.stackexchange.com/questions/419533/api-key-vs-jwt-which-authentication-to-use-and-when
+
+## oauth2
+## functional attack
