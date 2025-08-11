@@ -436,3 +436,15 @@ carefully decide on the optimal max-age
 user end http override api cache directive header
 
 ccd by default is public
+
+
+# api response data handling patterns
+## partial response
+- single query parameter
+  - /people/me?fields={Expression}
+  - /people/me?fields=firstname,lastname
+    e.g. linkedin
+- multiple query parameter
+  - query parameters only and ommit
+    e.g. meetup
+field projects vs filters
