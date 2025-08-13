@@ -546,5 +546,195 @@ Example use case for API keys is using Endpoints features such as quotas. Each r
 
 https://softwareengineering.stackexchange.com/questions/419533/api-key-vs-jwt-which-authentication-to-use-and-when
 
+
+api key and secret are similar to user/password but not the same, designed for machine to machine communication rather than usre to machine
+
+api key identifies an api consumer with
+    client key 
+    client id
+api secret used by client to prove its identity
+    used as a password in basic authentication or for token based authentication mechanism
+    used by consumer to create digital signature
+
+### how is the key used 
+- api key in combo with secret for authentication
+- usage analytics
+- get tokens from api provider
+- rate limiting
+### design decisions
+- send the api key & secret/signature
+  - http header
+  - query parameter 
+  - request body 
+
+The below 4 is not recommended to be implemented in api code but api management platform, mulesoft apigee, mashery etc.
+- key and secret management
+  - database
+  - validate
+- security scheme
+- key secret provision
+  - can they request it on a webpage or receive via email
+- rate limiting & analytics
+
+
+API Key is the same as Client ID, Client Key (true)
+they are identifying an application to the api
+
+
+key and secret may be used for basic auth, token based auth, anonymouse access by way fo digital signatures
 ## oauth2
+
+
+5 grant types
+- authorization scope grant
+- client credentials grant
+- implicit grant
+- refresh token grant
+- resource owner credentials grant
+
+| Grant Type                    | Can Fetch a User’s Data by Requesting Access | User’s Secret Key (Key Exchange Server Side) | Access Token Can Be Refreshed |
+|-------------------------------|---------------------------------------------|----------------------------------------------|-------------------------------|
+| Authorization Code Grant      | Yes                                         | Yes                                          | Yes                           |
+| Client Credentials Grant      | No (app data only)                          | Yes (client secret)                          | No                            |
+| Implicit Grant                | Yes                                         | No                                           | No                            |
+| Refresh Token Grant           | N/A (used to refresh tokens)                | N/A                                          | N/A                           |
+| Resource Owner Password Grant | ?-                                          | -                                            | -                             |
+
+
+
+flexible authorization framework
+- uses different types of tokens 
+- describes 5 methods (grants ) for acquiring access tokens
+- end user in control of their data (scope)
+- application / client need a api key and secret
+
+
+### authorization scope grant (social login scheme)
+
+the user has to provide a authorization for the scopes requested by the client
+
+
+```mermaid
+flowchart
+application/client --> |1.authorization request| user
+user --> |2.authorization grant| application/client
+subgraph provider
+    authorization_server
+    resource_or_api_server
+end
+application/client --> |3.authorization grant| authorization_server
+authorization_server --> |4.access token| application/client
+
+application/client --> |5.access token| resource_or_api_server
+
+resource_or_api_server --> |6.protected resource| application/client
+```
+
+
+authorization token
+  - proof of authorization
+  - issued after user logs in and authorize
+access token
+  - credential for accessing the protected resources
+  - provider may define multiple tipes
+  - expiry set by issuer
+  - facebook has 4
+    - user access
+    - app
+    - page
+    - client
+refresh token
+
+### client credential grant
+```mermaid
+flowchart
+subgraph application
+    a1[request access token]
+    a2[user access toekn in request to web api]
+end   
+subgraph spotify accounts service
+    b1[return access token]
+    b2[returns requested unscoped data]
+end
+a1 -->|client_id,client_secret, grant_type| b1
+b1 --> |access token| a2
+a2 --> |access_token| b2
+b2--> |json object| a2
+```
+
+### implicit grant
+use when client secert cannot be protected
+no az flow involved
+access to user data
+
+az: authorization
+
+```mermaid
+flowchart
+subgraph application
+    a1[request az to access data]
+    a2[user access token in request to web api]
+end
+subgraph spotify accounts service
+    b1["display scopes and prompts user to login (if required)"]
+    b2[redirect to application passing access token]
+    subgraph spotify web api
+        b3[return requested data]
+    end
+end
+subgraph user
+    c1[login and authorize access]
+end
+a1 --> |1 client_id, response_type, redirect_uri, state, scope| b1
+b1 --> |2| c1
+c1 --> b2
+b2 --> |3 access token, token type, expires in, state| a2
+a2--> |4 access token| b3
+b3 --> |5 json object| a2
+```
+
+
+
+
+### refresh toekn grant
+continuation of using access token obtained from az grant to get new token
+
+### rsource owner password grant
+user need to share credential with client
+not supported by spotify to protect the user credential
+may be used for trusted applications
+
+
+
+### other stuff
+scope is custom defined
+
+### design decisions
+- scope of user data
+- type of oauth grants to be supported
+  - az or implicit grant for private data
+  - client credentials for public data
+  - for trusted clients would you use resource owner password grant???
+- implementing the oauth
+  - can use packages such as npm passport.js
+  - or custom
+  - but suggested to use api gateway to implement this
+### summary:
+oauth is a flexible authorization framework that allows third-party applications to access user data without sharing credentials. It provides various grant types to accommodate different use cases and security requirements.
+
+oauth is not an authentication protocol, only authorization
+
+In OAuth 2.0 end user controls  the visibility of the resources (data) by way of scopes
+
+OAuth 2.0 requires the use of `api key and secret` (not basic authentication nor tokens) 
+
+For single page application you may use `implicit` grant type
+
+- az code grant: Traditionally requires a client secret, which cannot be securely stored in a browser-based SPA. However, with PKCE (Proof Key for Code Exchange), Authorization Code Grant is now recommended for SPAs, but without PKCE, it’s insecure.
+
+Consumer or Client must provide secret for all grant types: True
+    implicit grant does not require client secret.
+
 ## functional attack
+
+# specification using swagger/ oai
