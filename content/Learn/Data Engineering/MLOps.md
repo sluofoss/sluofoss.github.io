@@ -31,7 +31,7 @@ https://developers.teradata.com/quickstarts/manage-data/getting-started-dbt-feas
 | model build/train                   | [[sklearn]], #spark, #xgboost #ray                |
 | model code dev                      | #mlflow                                           |
 | model registry                      | #mlflow                                           |
-| model serve                         | #kubeflow                                         |
+| model serve                         | #kubeflow, #mlflow [[api design]]                                       |
 | model orchestration                 | #airflow, #argoflow                               |
 | IaC                                 | [[Terraform]]                                     |
 | [[CICD]]                            | #github #gitlab workflow #jenkins                 |
