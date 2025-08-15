@@ -737,4 +737,67 @@ Consumer or Client must provide secret for all grant types: True
 
 ## functional attack
 
+owasp
+
+- sql injection: data driven application
+  - can also be xpath, json path, xslt
+  - read sensitive data
+  - modify or delete data
+  - take admin action on db
+- fuzzing: random input to understand vulnerability
+  - how to deal with it:
+    - use post instead of get
+    - break transaction into steps
+    - add custom headers
+- cross site forgery: attack script on user browser
+  - how to deal with it?
+    - ensure expiry of token
+    - un predictable token patterns
+    - additional security header
+- session/token hijack: theft of access token from user browser
+
+sqlfiddle
+
+
+solutions to functional attacks
+- no universal
+- follow best practices
+- create process for code review
+- test & monitor continuously invest in tools
+  - http master, parasoft, soap ui  
+- api gateway or management sol
+- set aside budget for api testing
+
 # specification using swagger/ oai
+api : `ui` for data and system `consumered by applications` rather than humans
+
+well defined `contract` between api provider and consumer
+
+
+contract first or lat approach
+- contract first: define the api spec before implementation
+- contract last: define the api spec after implementation
+
+contract first is better because when last, it is hard to keep code and spec in sync
+
+rest api specification standards
+- wadl
+- apiblueprint
+- apiary
+- raml
+- swagger (standard, defacto standard)
+    - can be use for code gen for client app
+    - dev documentation
+    - proxy gen
+    - mock
+## requirements analysis
+## swagger/oai specification
+  - structure and elements
+
+# api management
+## lifecycle and productivity
+## dev portal
+## security management
+## api traffice management
+## api analytics
+## product and monetization
