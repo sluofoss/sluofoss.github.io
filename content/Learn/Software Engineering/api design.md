@@ -793,6 +793,31 @@ rest api specification standards
 ## requirements analysis
 ## swagger/oai specification
   - structure and elements
+## part 2
+- define schema for request/response
+- paameters
+- security schemes
+
+within the path section under operations references are made to th schemas defined definition
+
+definitions: schema for response/requests
+parameters: how the request data is received
+security scheme: how credentials are received.
+
+parameters can be the following:
+    - query param
+    - path param e.g. vacations/{id}
+    - custom header name
+security definition:
+    - type: {basic, apikey, oauth2}
+    - name: used fro associating with operation
+    - in : {query, header } where it is received in
+
+Schema for response cannot be used unless it is defined under the definitions: this is False
+- swagger does not force you to put every schema under definitions. it only requires that any $ref you use points to a definition.
+
+A request/response schema is a MUST under definitions before a Path/Operation can be created in the specifications: false, same as before.
+- you may skip the definition section nd describe the schema under the operation but then the schea will not be reusable as a good practice use definitions.
 
 # api management
 ## lifecycle and productivity
