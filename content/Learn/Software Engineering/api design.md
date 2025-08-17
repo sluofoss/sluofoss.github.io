@@ -793,6 +793,48 @@ rest api specification standards
 ## requirements analysis
 ## swagger/oai specification
   - structure and elements
+
+    swagger also known as openapi initiative
+
+    yaml is superset of json,
+
+    you can mix the 2 but not recommended
+
+    edit swagger yml
+    - any yaml editor
+    - editor.swagger.io
+    - node tools
+      - swagger
+      - swagger-tools
+      - yaml is meant for huan consumption
+      - 
+### structure of doc,
+  -  meta data, url enpoints, 
+  -  tags, external link to doc
+  -  first part:
+     -  metadata, root doc, enxternal doc, tags
+        -  metadata:
+           -  swagger version, info (version, title description, contact, license)
+        - root doc:
+          - host e.g. api.acme.com
+          - basepath /v1
+          - schemes[string] http, https
+          - consumes[string] for content type header (application/json, application/xml, plain/text) 
+          - produces[string] for content type header (application/json, application/xml, plain/text)
+        - tags:
+          - names
+          - description 
+          - referred in Paths/Operations
+          - makes tags searchable
+        - externalDocs
+          - description, url
+          - links to document repositiory
+## second part (definition):
+     - definitions parameters, securityDefinitions
+     - schema for request/response
+     - parameters
+     - security
+
 ## part 2
 - define schema for request/response
 - paameters
@@ -813,11 +855,13 @@ security definition:
     - name: used fro associating with operation
     - in : {query, header } where it is received in
 
+## 3rd part (paths)  
+
 Schema for response cannot be used unless it is defined under the definitions: this is False
 - swagger does not force you to put every schema under definitions. it only requires that any $ref you use points to a definition.
 
 A request/response schema is a MUST under definitions before a Path/Operation can be created in the specifications: false, same as before.
-- you may skip the definition section nd describe the schema under the operation but then the schea will not be reusable as a good practice use definitions.
+- you may skip the definition section and describe the schema under the operation but then the schea will not be reusable as a good practice use definitions.  -  
 
 # api management
 ## lifecycle and productivity
